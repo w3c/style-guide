@@ -813,17 +813,17 @@ Examples:
 - They agreed to meet between 13:00 and 15:00.
 </div>
 
-## Titles
+### Titles
 
-### Published documents
+#### Published documents
 
 When referring to the title of a published document, follow the title exactly as it appears and preserve its capitalization, whether it uses title case or sentence case.
 
 If the title uses sentence case and is not linked, enclose it in double quotation marks to distinguish it from the surrounding text.
 
-### Naming new documents
+#### Naming new documents
 
-#### Title case
+##### Title case
 
 Use **title case** for the title of a complete, fixed, authoritative work, such as a specification, standard, or policy.
 
@@ -844,7 +844,7 @@ Examples:
 
 **Note:** When using title case, keep titles as short as practical to improve readability.
 
-#### Sentence case
+##### Sentence case
 
 Use **sentence case** for the title of any document that is ***not*** a complete, fixed, authoritative  work, unless the title includes a proper name.
 
@@ -852,7 +852,6 @@ These documents typically have the following characteristics:
 
 - form part of a larger work, such as a chapter, module, or technique
 - describe the information people can find in the document
-
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
@@ -864,7 +863,6 @@ Examples:
 </div>
 
 See related guidance on [capitalization in headings](#capitalization-in-headings).
-
 
 ## Grammar
 
