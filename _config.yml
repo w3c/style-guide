@@ -8,5 +8,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-readme_index:
-  remove_originals: true
+exclude: ["README.md", "**/README.md"]
+toc:
+  max_level: 2

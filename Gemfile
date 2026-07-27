@@ -15,7 +15,6 @@ gem "jekyll", "~> 4.1.0"
 # our markdown files don't have frontmatter
 group :jekyll_plugins do
   gem 'jekyll-commonmark'
-  gem "jekyll-readme-index"
   gem "jekyll-relative-links"
   gem 'jekyll-remote-theme'
   gem 'jekyll-toc'
