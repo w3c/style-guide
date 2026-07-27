@@ -21,6 +21,8 @@ Following this guide helps:
 
 Keep in mind that W3C content serves a global audience and is often used as authoritative reference material. Prioritize clarity, simplicity, and long-term readability. Much of what we publish becomes part of the permanent web record under the [W3C Persistence Policy](https://www.w3.org/policies/uri-persistence/).
 
+To provide feedback on this style guide, please [comment on existing issues or raise a new issue on GitHub](https://github.com/w3c/style-guide/issues).
+
 ## Structure and presentation
 
 ### Structure
