@@ -1,0 +1,12 @@
+title: W3C Style Guide
+baseurl: /guide/manual-of-style
+description: "Follow these guidelines when writing materials for W3C."
+remote_theme: w3c/w3c-jekyll-theme
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+readme_index:
+  remove_originals: true
