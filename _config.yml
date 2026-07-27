@@ -1,5 +1,5 @@
 title: W3C Style Guide
-baseurl: /guide/manual-of-style
+baseurl: /guide/style-guide
 description: "Follow these guidelines when writing materials for W3C."
 remote_theme: w3c/w3c-jekyll-theme
 defaults:
