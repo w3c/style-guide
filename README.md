@@ -86,7 +86,7 @@ Actions to take before exiting the review period and shifting to regular mainten
 
 - Obsolete existing information in the old style guides
 - Ask Fuqiao or Richard to update [Editorial guidelines for i18n docs](https://www.w3.org/International/i18n-activity/guidelines/editing) (that is, to leave only guidance specific to i18n docs, and to point to the W3C Style Guide)
-- Apply W3C Style Guide guidance to the [W3C Process Document]() (and other major published documents)
+- Apply W3C Style Guide guidance to the [W3C Process Document](https://www.w3.org/policies/process/) (and other major published documents)
 - Address [GitHub comment about TAG using negative contractions](https://github.com/w3c/style-guide-v2025/issues/11)
 - Add notes on what to include and not to include in the style guide (and where the removed information could live to better serve different users: [GitHub issue #22](https://github.com/w3c/style-guide-v2025/discussions/22)
 
