@@ -37,7 +37,7 @@ We deliberately chose wording that is easier to apply, reduces ambiguity, follow
 This work has resulted in the separation of the W3C Manual of Style into two documents:
 
 - (unified) W3C Style Guide (this document)
-- [W3C Specification Editor Handbook](https://pr-preview.s3.amazonaws.com/w3c/guide/pull/445.html) | [(diff view)](https://pr-preview.s3.amazonaws.com/w3c/guide/445/05c4ac9...44907a2.html)
+- [W3C Specification Editor Handbook](https://pr-preview.s3.amazonaws.com/w3c/guide/pull/445.html)
 
 ## Review rounds
 
