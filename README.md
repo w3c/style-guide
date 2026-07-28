@@ -18,7 +18,7 @@ It empowers W3C writers, editors, and contributors across W3C to write content s
 
 ## Maintenance
 
-The maintenance of the W3C Style Guide will continue to be collaborative and follow the living document approach using GitHub issues and merge requests.
+The maintenance of the W3C Style Guide will continue to be collaborative and follow the living document approach using GitHub issues and pull requests.
 
 ## Phased review
 
