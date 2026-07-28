@@ -1,16 +1,16 @@
 ---
-name: Style Guide
+name: Feedback submission
 about: Submit feedback about the W3C Style Guide
 title: ''
-labels: style-guide
+labels: feedback
 assignees: ''
 
 ---
 
-## Describe the issue (**Required**)
+# Describe the issue (**Required**)
 Clearly describe the problem. 
 
-## Issue type
+# Issue type
 Select the option(s) that best describe the issue:
 
 - [ ] Missing guidance
@@ -23,20 +23,20 @@ Select the option(s) that best describe the issue:
 
 If you ticked "Other", please give the reason here:
 
-## Section name
+# Section name
 Provide the section name or heading for the guidance this feedback relates to. 
 
-## Recommended solution
+# Recommended solution
 If you have thoughts on this, please suggest replacement wording.
 
-## Rationale (**Required**)
+# Rationale (**Required**)
 Explain why you think this change would improve the guidance.
 
-## Additional context
+# Additional context
 Add any other information that may help us understand the issue.
 
 For example, include links to related:
 - guidance or examples from other US style guides or authoritative sites
 - best practices on accessibility, internationalization, translation, or usability
 
-## Any other comments?
+# Any other comments?
