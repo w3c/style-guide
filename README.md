@@ -41,7 +41,7 @@ This work has resulted in the separation of the W3C Manual of Style into two doc
 
 ## Review rounds
 
-The new style guide is now open for Team review and feedback, and will subsequently move to wider review and feedback. See the timeline below for our phased approach. It's still an open question whether we want to focus on both documents or just the W3C Style Guide. Your input is welcome.
+The new style guide is now open for Team review and feedback, and will subsequently move to wider review and feedback. See the timeline below for our phased approach. 
 
 ## Review timelines
 
