@@ -67,7 +67,7 @@ The new style guide is now open for Team review and feedback, and will subsequen
   - Resolve issues as they are identified
 
 - External review:
-  - Invite W3C editors to review the guide, focussing on identifying gaps, ambiguities, and inconsistencies
+  - Invite W3C editors to review the guide, focusing on identifying gaps, ambiguities, and inconsistencies
   - Resolve issues as they are identified
 
 **4. Consideration of external feedback** — Monday, 1 February to Friday, 26 February 2027
