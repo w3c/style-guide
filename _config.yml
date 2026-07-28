@@ -10,4 +10,4 @@ defaults:
       layout: "default"
 exclude: ["README.md", "**/README.md"]
 toc:
-  max_level: 2
+  max_level: 3
