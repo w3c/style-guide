@@ -1630,6 +1630,6 @@ zeros
 
 ## Acknowledgments
 
-Thank you to Tamsin Ewing, W3C Senior Accessibility Content Specialist and Coralie Mercier, W3C Director of Marketing and Communications who authored this guide in July 2026.
+Thank you to Tamsin Ewing, W3C Senior Accessibility Content Specialist, and Coralie Mercier, W3C Director of Marketing and Communications, who authored this guide in July 2026.
 
 We are also grateful to contributors who have improved the guidance [List to be added as part of the GitHub issue triage and disposition]
