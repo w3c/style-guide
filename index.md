@@ -6,6 +6,9 @@ toc: true
 
 ## About this style guide
 
+Editors: Tamsin Ewing, W3C; Coralie Mercier, W3C
+Initial draft: 28 July 2026
+
 This style guide promotes readability, consistency, and easier translation across W3C content.
 
 It's a living document. For the list of substantive changes, see the Changelog [Link coming].
@@ -1624,3 +1627,9 @@ worldwide
 
 zeros
 : Use **"zeros"**, not "zeroes".
+
+## Acknowledgments
+
+Thank you to Tamsin Ewing, W3C Senior Accessibility Content Specialist, and Coralie Mercier, W3C Director of Marketing and Communications, who authored this guide in July 2026.
+
+We are also grateful to contributors who have improved the guidance [List to be added as part of the GitHub issue triage and disposition]
