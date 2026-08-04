@@ -385,18 +385,12 @@ Include a comma if it would normally follow the full phrase. For example, write 
 
 Put the day first:
 
+Use the international format to reduce ambiguity for a global audience. This is a specific, intentional departure from US practice.
+
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
 
 1 January (instead of January 1)
-</div>
-
-Do not use letter suffixes after the day:
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-30 April (instead of 30th April)
 </div>
 
 Use numbers for the day and year, words for the month:
@@ -405,6 +399,14 @@ Use numbers for the day and year, words for the month:
 Example:
 
 31 May 2022
+</div>
+
+Do not use letter suffixes after the day:
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+30 April (instead of 30th April)
 </div>
 
 If numbers only are required, such as in a form, use YYYY-MM-DD:
