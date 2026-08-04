@@ -6,10 +6,10 @@ toc: true
 
 ## About this style guide
 
-Editors: Tamsin Ewing, W3C; Coralie Mercier, W3C
+Editors: Tamsin Ewing, W3C; Coralie Mercier, W3C. 
 Initial draft: 28 July 2026
 
-This style guide is written for W3C authors and editors. It promotes readability, consistency, and easier translation across W3C content, including standards-related materials, educational resources, organizational communications, and website content.
+This style guide is written for W3C authors and editors. It promotes readability, consistency, and easier translation across all W3C content, including standards-related materials, educational resources, organizational communications, and website content.
 
 This is a living document. For the list of substantive changes, see the Changelog [Link coming].
 
