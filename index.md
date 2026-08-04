@@ -768,16 +768,23 @@ Example:
 
 #### Punctuation in numbers
 
-Use commas in numbers with more than three digits.
+Use commas as thousands separators in quantities.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
 
-- 9,000
-- 9,990,900
+- 9,000 users
+- 9,990,900 downloads
 </div>
 
-**Exceptions:** Use no punctuation for years, addresses, page numbers, or code line numbers.
+Do not use thousand separators in years, addresses, page numbers, or code line identifiers.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+- year 2026
+- page 1234
+</div>
 
 ### Symbols
 
