@@ -915,15 +915,17 @@ See [Capitalization in headings](#capitalization-in-headings).
 
 See [Capitalization and punctuation in lists](#capitalization-and-punctuation-in-lists).
 
-#### Official names versus generic terms
+#### Official names versus common terms
 
 Capitalize terms when they form part of an official name.
 
 Use the full official name where practical to reduce ambiguity.
 
-Use lowercase when referring to the same thing generically rather than by its official name.
+Use lowercase for common terms.
 
-| Example official name | Generic term |
+When you remove part of an official name, it's no longer an official name and becomes a common term.
+
+| Example official name | Common term |
 | ------- | ------ |
 | W3C Advisory Committee | advisory committee |
 | W3C Code of Conduct | code of conduct |
@@ -939,29 +941,11 @@ Use lowercase when referring to the same thing generically rather than by its of
 | ARIA Working Group | working group |
 | W3C Workshop | workshop |
 
-##### Do not abbreviate an official name
-
-Use the full official names where practical to reduce ambiguity.
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
-Use:
-
-- W3C Advisory Board
-- WAI Interest Group
-- ARIA Working Group
-
-Avoid:
-
-- Advisory Board
-- Interest Group
-- Working Group
-</div>
-
 ##### Plural forms
 
-Use lowercase for generic references, even when the singular form is capitalized as part of an official name.
+When you pluralize an official name, it usually becomes a common term. 
+
+Use lowercase for common terms.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
@@ -1113,7 +1097,7 @@ Examples:
 - **Add emphasis:** Our mission is to make the web work — for everyone.
 </div>
 
-**Note:** If using an em dash to combine related ideas makes a sentence long or complicated, use separate, grammatically complete sentences instead.
+**Note:** If combining related ideas with an em dash makes a sentence long or complicated, it is usually better to split it into two sentences.
 
 ###### Em dashes in list items
 
