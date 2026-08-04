@@ -9,9 +9,9 @@ toc: true
 Editors: Tamsin Ewing, W3C; Coralie Mercier, W3C
 Initial draft: 28 July 2026
 
-This style guide promotes readability, consistency, and easier translation across W3C content.
+This style guide is written for W3C authors and editors. It promotes readability, consistency, and easier translation across W3C content, including standards-related materials, educational resources, organizational communications, and website content.
 
-It's a living document. For the list of substantive changes, see the Changelog [Link coming].
+This is a living document. For the list of substantive changes, see the Changelog [Link coming].
 
 The guidance is written for US English. Translators should follow the conventions of their target language.
 
