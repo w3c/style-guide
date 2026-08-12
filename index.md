@@ -341,7 +341,7 @@ Use **title case** for proper names.
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
 
-- Web Content Accessibility Guidelines (WCAG)
+- Web of Things (WoT)
 - Framework for Accessible Specification of Technologies (FAST) Task Force
 </div>
 
@@ -1290,10 +1290,17 @@ The time is not essential: “The meeting, which starts at 10:00, is online.”
 Use a singular verb with collective nouns when referring to the group as a single entity.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
+Example 1:
 
 - Use: The working group has published a draft.
 - Avoid: The working group have published a draft.
+</div>
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example 2:
+
+- Use: Web Content Accessibility Guidelines (WCAG) is published by W3C.
+- Avoid: Web Content Accessibility Guidelines (WCAG) are published by W3C.
 </div>
 
 **Exceptions:**
@@ -1329,6 +1336,9 @@ anti-alias
 
 ASCII
 : Use all caps.
+
+autistic
+: Always use “autistic people”, not “people with autism”.
 
 back end, back-end
 : Use **"back end"** as a noun: “Data is processed by the back end.” Use **back-end** as an adjective: “We rely on a back-end server.” See [Hyphen](#hyphen--).
