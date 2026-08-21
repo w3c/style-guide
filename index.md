@@ -1448,7 +1448,7 @@ log in, login
 : Use **"log in"** as a verb. Use **"login"** as a noun or adjective.
 
 loss
-: Avoid as a general description that includes congenital conditions. Use it when describing a change, such as “As we age, we may experience hearing loss.” See [Disability language](#disability-language).
+: Avoid as a general description that includes congenital conditions. You can use it when describing a change, such as “As we age, we may experience hearing loss.” See [Disability language](#disability-language).
 
 lowercase
 : Write as one word.
