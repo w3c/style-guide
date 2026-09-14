@@ -109,7 +109,7 @@ Provide the full term with the abbreviation on first use. See [Expanding abbrevi
 
 ###### Contractions
 
-Use simple positive contractions such as “it’s”, “you’re”,  “we’ve” and they’ll, because they make text feel more conversational and friendly, and help readers absorb information faster.
+Use simple positive contractions such as “it’s”, “you’re”,  “we’ve” and “they’ll”, because they make text feel more conversational and friendly, and help readers absorb information faster.
 
 Avoid negative contractions such as “can’t”, “don’t”, and “won’t”.
 
