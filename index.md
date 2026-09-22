@@ -383,22 +383,13 @@ Include a comma if it would normally follow the full phrase. For example, write 
 
 ### Dates
 
-Put the day first:
-
-Use the international format to reduce ambiguity for a global audience. This is a specific, intentional departure from US practice.
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-1 January (instead of January 1)
-</div>
-
-Use numbers for the day and year, words for the month:
+Use the international format to reduce ambiguity for a global audience: Put the day first using digits, followed by the month written out as a word.
+This is a specific, intentional departure from US practice.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
 
-31 May 2022
+1 August 2026 (instead of 8/1/2026)
 </div>
 
 Do not use letter suffixes after the day:
