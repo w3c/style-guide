@@ -770,7 +770,7 @@ Example:
 
 #### Punctuation in numbers
 
-Use commas as thousands separators in quantities.
+Use commas as thousands separators in numbers that express a quantity.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
@@ -779,7 +779,7 @@ Examples:
 - 9,990,900 downloads
 </div>
 
-Do not use thousand separators in years, addresses, page numbers, or code line identifiers.
+Do not use thousand separators in numbers that identify or label something, such as a year, address, page number, code line number, or issue number.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
