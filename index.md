@@ -296,7 +296,7 @@ Example:
 
 Terms to avoid:
 
-- Master — instead, use “main”
+- Master — instead, use “main” or “primary”
 - Whitelist — instead, use “allowlist”
 - Blacklist — instead, use “denylist”
 
@@ -1457,7 +1457,7 @@ markup
 : Write as one word. Do not hyphenate.
 
 master
-: Avoid. Use **main**. See [Race-inclusive language](#race-inclusive-language).
+: Use **master** when referring to mastering a skill. Avoid "master" to mean "main" or "primary", such as "master spreadsheet". Use **main** or **primary** instead. See [Race-inclusive language](#race-inclusive-language).
 
 metadata
 : Write as one word. Do not hyphenate.
