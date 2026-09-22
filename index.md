@@ -794,7 +794,7 @@ Except where there is a lack of space (for example, in a table or chart), use wo
 
 - **Ampersand:**
   - &: Use “**and**” instead.
-- **Number sign (octothorpe):**
+- **Number sign:**
   - #: Use “**number**” or a suitable noun instead.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
