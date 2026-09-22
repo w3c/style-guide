@@ -381,6 +381,20 @@ If space is limited (for example, in a table cell), you may use abbreviations ca
 
 Include a comma if it would normally follow the full phrase. For example, write “e.g.,” and  “i.e.,” rather than “e.g.” and “i.e.”.
 
+### Currencies
+
+Use ISO 4217 currency codes and place the code after the amount.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+100 USD
+</div>
+
+**Note:** This guidance is for English-language text. Currency conventions may differ in other languages.
+
+Download the latest [ISO 4217 currency codes in XLS and XML](https://www.iso.org/iso-4217-currency-codes.html).
+
 ### Dates
 
 Put the day first:
