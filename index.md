@@ -198,23 +198,7 @@ Only state or request someone’s age when it’s strictly relevant.
 
 Use respectful, accurate language when referring to disability.
 
-Examples:
-
-- Use blind, not “visually impaired”.
-- Use deaf, not “hearing-impaired”.
-
-Avoid terms that are dehumanizing or patronizing, or that suggest helplessness or weakness.
-
-Examples:
-
-- the disabled, the blind
-- differently abled
-- handicapped
-- high-functioning, low-functioning
-- special needs
-- wheelchair bound, confined to a wheelchair
-
-For other disability-specific terms, and terminology to avoid, see the [W3C word list](#w3c-word-list).
+For examples of disability-specific terms, and terminology to avoid, see the [W3C word list](#w3c-word-list).
 
 ###### People-first and identity-first language
 
@@ -1412,7 +1396,7 @@ heading
 : Use **heading** for headings marked up with `<h1>` through `<h6>`.
 
 hearing-impaired, hearing impairment
-: Avoid. Use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
+: Avoid when referring to people. Use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
 
 homepage, home page
 : One word preferred, both allowed.
@@ -1583,7 +1567,7 @@ user interface
 : Lowercase, unless part of a proper name.
 
 visually impaired
-: Avoid. Use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
+: Avoid when referring to people. Use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
 
 voice recognition
 : Use for technology that identifies who is speaking by analyzing vocal characteristics, such as voice biometrics used for authentication.
