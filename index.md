@@ -959,7 +959,6 @@ Examples:
 - The **Accessibility Guidelines Working Group** is discussing the issue.
 - There are currently 47 open **working groups**.
 </div>
-Working Groups are where formal W3C standards, called Recommendations, are developed and maintained.
 
 ### Punctuation
 
