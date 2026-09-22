@@ -1231,41 +1231,27 @@ Avoid using quotes in a way that could be taken to suggest irony or in a non-sta
 
 Generally, use a forward slash only in dates, fractions, and URLs.
 
-Avoid using a forward slash as a substitute for words.
+Avoid using a forward slash as a substitute for words whenever possible.
 
-For two things that have a close relationship, use a hyphen or words like “and” or “or” instead.
+For two things that have a close relationship, use words like “and” or “or” instead.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 
-Example 1: Close relationship
-
-- Use: The issue was part of the larger nature**-**nurture debate.
-- Avoid: The issue was part of the larger nature/nurture debate.
-
-Example 2: Equal relationship
+Example 1: Equal relationship
 
 - Use: The project examines cause-**and**-effect relationships.
 - Avoid: The project examines cause/effect relationships.
 
-Example 3: Either or both
+Example 2: Either or both
 
 - Use: Add a potato, **or** an onion, **or both**.
 - Avoid: Add a potato and/or an onion.
 </div>
 
-Example 4: Alternative
+Example 3: Alternative
 
 - Use: If **or** when I have a dog, I’ll need a fenced yard.
 - Avoid: If/when I have a dog, I’ll need a fenced yard.
-
-**Exception:** You may use a forward slash to show an alternative if it's clearer than using words.
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: In inclusive writing, avoid gender pronouns (she/her, he/his).
-- Avoid: In inclusive writing, avoid gender pronouns (she or her, he or his).
-</div>
 
 ### That versus which
 
