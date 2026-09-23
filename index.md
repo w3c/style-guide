@@ -52,8 +52,8 @@ To provide feedback on this style guide, please [comment on existing issues or r
   - Keep paragraphs short.
   - Stick to one topic per paragraph.
   - Make sure the paragraph content fits the topic of the heading it sits under.
-- **Lists:**
-  - Use lists for steps, options, and related items.
+- **:**
+  - Use  for steps, options, and related items.
 
 ### Formatting
 
@@ -569,22 +569,24 @@ Example:
 
 #### Parallel structure
 
-Keep the same grammatical form for each list item: all noun phrases, all verb phrases, or all full sentences.
+Use the same grammatical structure for each item in a list. For example, if one item starts with a noun, start all the items with a noun.
+
+Avoid mixing different structures in the same list.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
 
 Use:
 
-- Gather data to understand the audience
-- Structure and write the content.
-- Test and refine the content.
+- Research the audience.
+- Design the content.
+- Conduct usability testing.
 
 Avoid:
 
-- Gathering data to understand the audience.
-- Content structure and writing
-- Test and refine the content
+- Research the audience.
+- Content design.
+- Testing with users.
 </div>
 
 #### Long list items
