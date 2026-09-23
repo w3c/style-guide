@@ -259,12 +259,12 @@ Use pronouns that are **inclusive** and **easy to translate** for W3C's global a
 
 **Use a plural noun to avoid he/she and his/her**:
 
-Avoid assuming gender by skipping "he/she" and "his/her", where possible. Use a **plural noun** instead.
+Use a **plural noun** instead of assuming gender or skipping "he/she" and "his/her", where possible.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
 
-Using the noun  “developer”:
+Using the noun “developer”:
 
 - Use: **Developers** should test **their** code before release.
 - Avoid: A developer should test **his** code before release.
@@ -272,13 +272,13 @@ Using the noun  “developer”:
 
 **Use a noun instead of singular “they”:**
 
-Singular, “they” can be:
+Singular “they” can be:
 
 - hard to translate in some languages
 - hard to understand for some people
 - considered grammatically incorrect by some people
 
-To avoid using singular “they”, use a **noun** instead.
+Use a **noun** instead of singular “they".
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
