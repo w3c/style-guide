@@ -672,6 +672,18 @@ Your application must include the following documents:
 
 If you must mix sentences and fragments, start with a capital letter and end with a full stop or question mark for all items.
 
+### Measurements
+
+When writing for a global audience, provide both metric and imperial units.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+- The hotel is 6.2 miles (10 km) from the airport.
+- The package weighs 22 lb (10 kg).
+- The temperature is 68°F (20°C).
+</div>
+
 ### Numbers
 
 #### When to write as digits
@@ -719,9 +731,20 @@ Examples:
 - Use words for very large, rounded numbers.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples of writing very large numbers:
+Example:
 
-1 million, 2.2 billion, 3.5 trillion
+1.5 million
+</div>
+
+**Note:** When using billion and larger-number terms, their meaning can vary between languages and numbering conventions. For example, depending on the numbering convention, one billion can mean one thousand million or one million million.
+
+Always clarify billion and larger-number terms in words.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+
+Example:
+
+1 billion (one thousand million)
 </div>
 
 ##### Start of a sentence
