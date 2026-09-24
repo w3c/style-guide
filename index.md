@@ -257,9 +257,13 @@ Not all builders are male.
 
 Use pronouns that are **inclusive** and **easy to translate** for W3C's global audience.
 
-**Use a plural noun to avoid he/she and his/her**:
+**Use a plural noun instead of “he/she” or “his/her”:**
 
-Use a **plural noun** instead of assuming gender or skipping "he/she" and "his/her", where possible.
+“He/she” and “his/her” unnecessarily limit gender to binary choices.
+
+Use a **plural noun** with “they” or “their”.
+
+Where possible, avoid “he/she” and “his/her”.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
@@ -267,10 +271,10 @@ Example:
 Using the noun “developer”:
 
 - Use: **Developers** should test **their** code before release.
-- Avoid: A developer should test **his** code before release.
+- Avoid: A developer should test **his** or **her** code before release.
 </div>
 
-**Use a noun instead of singular “they”:**
+**Repeat the noun instead of using singular “they”:**
 
 Singular “they” can be:
 
@@ -278,7 +282,9 @@ Singular “they” can be:
 - hard to understand for some people
 - considered grammatically incorrect by some people
 
-Use a **noun** instead of singular “they".
+Repeat the noun.
+
+Where possible, avoid singular “they”.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
@@ -287,7 +293,9 @@ Example:
 - Avoid: If an author can avoid jargon, **they** should do so.
 </div>
 
-**Exceptions:** Use:
+**Exceptions:** 
+
+Use:
 
 - personal pronouns that real people use for themselves
 - pronouns assigned to named personas
