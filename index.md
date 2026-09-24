@@ -1134,7 +1134,6 @@ Use a hyphen to join compound adjectives.
 Examples:
 
 - peer-to-peer connection
-- short-term memory
 - well-known technique
 </div>
 
