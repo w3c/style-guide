@@ -1210,7 +1210,7 @@ full stop (.)
 : Use **full stop** as the formal name.
 
 grandfather
-: Avoid. Use **legacy**. See [age-inclusive language](#age-inclusive-language).
+: Avoid when referring to existing code, systems, or practices that continue under earlier requirements. Use "**legacy**", "**exempt**", or another precise alternative. The metaphorical use originates from discriminatory US voting laws. See [Race-inclusive language](#race-inclusive-language).
 
 hand-eye coordination
 : Use **"hand-eye coordination"**, not "eye-hand coordination".
