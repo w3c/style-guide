@@ -53,7 +53,7 @@ To provide feedback on this style guide, please [comment on existing issues or r
   - Keep paragraphs short.
   - Stick to one topic per paragraph.
   - Make sure the paragraph content fits the topic of the heading it sits under.
-- **Lists:**
+- **:**
   - Use lists for steps, options, and related items.
 
 ### Formatting
@@ -340,6 +340,20 @@ If space is limited (for example, in a table cell), you may use abbreviations ca
 
 Include a comma if it would normally follow the full phrase. For example, write “e.g.,” and  “i.e.,” rather than “e.g.” and “i.e.”.
 
+### Currencies
+
+Use ISO 4217 currency codes and place the code after the amount.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+100 USD
+</div>
+
+**Note:** This guidance is for English-language text. Currency conventions may differ in other languages.
+
+Read more on the <abbr title="International Organization for Standardization">ISO</abbr> website: [ISO 4217 — Currency codes](https://www.iso.org/iso-4217-currency-codes.html).
+
 ### Dates
 
 Put the day first:
@@ -486,19 +500,21 @@ Add a full stop after the linked text if it ends a sentence. Do not include the 
 
 #### Parallel structure
 
-Keep the same grammatical form for each list item: all noun phrases, all verb phrases, or all full sentences.
+Use the same grammatical structure for each item in a list. For example, if one item starts with a noun, start all the items with a noun.
+
+Avoid mixing different structures in the same list.
 
 {% include example.html label="Example"
-  use="Gather data to understand the audience"
-  avoid="Gathering data to understand the audience." %}
+  use="Research the audience."
+  avoid="Research the audience." %}
 
 {% include example.html label="Example"
-  use="Structure and write the content."
-  avoid="Content structure and writing" %}
+  use="Design the content."
+  avoid="Content design." %}
 
 {% include example.html label="Example"
-  use="Test and refine the content."
-  avoid="Test and refine the content" %}
+  use="Conduct usability testing."
+  avoid="Testing with users." %}
 
 #### Long list items
 
