@@ -53,7 +53,7 @@ To provide feedback on this style guide, please [comment on existing issues or r
   - Stick to one topic per paragraph.
   - Make sure the paragraph content fits the topic of the heading it sits under.
 - **:**
-  - Use  for steps, options, and related items.
+  - Use lists for steps, options, and related items.
 
 ### Formatting
 
