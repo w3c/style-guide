@@ -393,7 +393,7 @@ Example:
 
 **Note:** This guidance is for English-language text. Currency conventions may differ in other languages.
 
-Download the latest [ISO 4217 currency codes in XLS and XML](https://www.iso.org/iso-4217-currency-codes.html).
+Read more on the <abbr title="International Organization for Standardization">ISO</abbr> website: [ISO 4217 — Currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ### Dates
 
