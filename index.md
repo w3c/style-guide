@@ -600,14 +600,14 @@ If you must mix sentences and fragments, start with a capital letter and end wit
 
 ##### Ages, measurements, percentages, and ratios
 
-Always use a **digit**:
+Always use a **digit**.
 
 {% capture body %}
 - She is 5 years old.
-- They run 5 kilometres every day.
+- They run 3 miles every day.
 - He is 6 feet tall.
-- We drink 2 litres of water a day.
-- I bought 2 kilos of tomatoes.
+- We drink 2 liters of water a day.
+- I bought 4 pounds of tomatoes.
 {% endcapture %}
 {% include example.html label="Example" content=body %}
 
@@ -1210,7 +1210,7 @@ full stop (.)
 : Use **full stop** as the formal name.
 
 grandfather
-: Avoid. Use **legacy**. See [Gender-inclusive language](#gender-inclusive-language).
+: Avoid when referring to existing code, systems, or practices that continue under earlier requirements. Use "**legacy**", "**exempt**", or another precise alternative. The metaphorical use originates from discriminatory US voting laws. See [Race-inclusive language](#race-inclusive-language).
 
 hand-eye coordination
 : Use **"hand-eye coordination"**, not "eye-hand coordination".
