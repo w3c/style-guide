@@ -7,14 +7,14 @@ stylesheets: 'assets/css/example.css'
 
 ## About this style guide
 
-Editors: Tamsin Ewing, W3C; Coralie Mercier, W3C. 
+**Editors:** Tamsin Ewing, W3C; Coralie Mercier, W3C. 
 Initial draft: 28 July 2026
 
 This style guide is written for W3C authors and editors. It promotes readability, consistency, and easier translation across all W3C content, including standards-related materials, educational resources, organizational communications, and website content.
 
 This is a living document. For the list of substantive changes, see the Changelog [Link coming].
 
-The guidance is written for US English. Translators should follow the conventions of their target language.
+The guidance is written for **US English**. Translators should follow the conventions of their target language.
 
 Following this guide helps:
 
@@ -53,7 +53,7 @@ To provide feedback on this style guide, please [comment on existing issues or r
   - Keep paragraphs short.
   - Stick to one topic per paragraph.
   - Make sure the paragraph content fits the topic of the heading it sits under.
-- **:**
+- **Lists:**
   - Use lists for steps, options, and related items.
 
 ### Formatting
@@ -223,11 +223,11 @@ Identity-first language puts the disability before the person.
 
 Use gender-neutral language, where possible.
 
-{% include example.html label="Example"
-  use="“chair”, not “chairman”"
-  avoid="assumptions about gender." %}
+Avoid making assumptions about gender.
 
-{% include example.html content="Not all builders are male." %}
+{% include example.html label="Example"
+  use="“chair”"
+  avoid="“chairman”" %}
 
 ###### Pronouns: Gender inclusivity and translation considerations
 
@@ -237,7 +237,7 @@ Use pronouns that are **inclusive** and **easy to translate** for W3C's global a
 
 Avoid assuming gender by skipping "he/she" and "his/her", where possible. Use a **plural noun** instead.
 
-{% include example.html label="Example: using the noun “developer”"
+{% include example.html label="Example: Using the noun “developer”"
   use="**Developers** should test **their** code before release."
   avoid="A developer should test **his** code before release." %}
 
@@ -290,12 +290,16 @@ There are a few ways you can do this. See [Techniques for expanding abbreviation
 
 **Exception:** If a term is widely known by its abbreviation, you do not need to spell it out.
 
-{% include example.html content="ARIA, CAPTCHA, GIF, HTML, PDF, WiFi" %}
+{% capture body %}
+ARIA, CAPTCHA, GIF, HTML, PDF, WiFi
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 #### Re-expanding abbreviations
 
-- **Independent sections:** In sections that may be read independently of the main text, spell out the abbreviation again, followed by the abbreviation in parentheses.
-- **Change of context:** If an abbreviation could have multiple meanings and the context changes, provide the full meaning to clarify which meaning is intended.
+**Independent sections:** In sections that may be read independently of the main text, spell out the abbreviation again, followed by the abbreviation in parentheses.
+
+**Change of context:** If an abbreviation could have multiple meanings and the context changes, provide the full meaning to clarify which meaning is intended.
 
 #### Capitalization in expanded terms
 
@@ -305,7 +309,7 @@ Use **title case** for proper names.
 - Web Content Accessibility Guidelines (WCAG)
 - Framework for Accessible Specification of Technologies (FAST) Task Force
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 Use **lowercase** for common nouns.
 
@@ -313,7 +317,7 @@ Use **lowercase** for common nouns.
 - real-time communication (RTC)
 - augmentative and alternative communication (AAC)
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 #### Plural acronyms
 
@@ -338,17 +342,17 @@ Form the plural of an acronym by adding a lowercase “s”. Do not use an upper
 
 If space is limited (for example, in a table cell), you may use abbreviations carefully.
 
-Include a comma if it would normally follow the full phrase. For example, write “e.g.,” and  “i.e.,” rather than “e.g.” and “i.e.”.
+Include a comma if it would normally follow the full phrase. 
+
+{% include example.html label="Examples"
+  use="e“e.g.,” and “i.e.,”"
+  avoid="“e.g.” and “i.e.”" %}
 
 ### Currencies
 
 Use ISO 4217 currency codes and place the code after the amount.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-100 USD
-</div>
+{% include example.html content="100 USD" %}
 
 **Note:** This guidance is for English-language text. Currency conventions may differ in other languages.
 
@@ -356,28 +360,29 @@ Read more on the <abbr title="International Organization for Standardization">IS
 
 ### Dates
 
-Put the day first:
+Put the day first.
 
 Use the international format to reduce ambiguity for a global audience. This is a specific, intentional departure from US practice.
 
 {% include example.html content="1 January (instead of January 1)" %}
 
-Use numbers for the day and year, words for the month:
+Use numbers for the day and year, words for the month.
 
 {% include example.html content="31 May 2022" %}
 
-Do not use letter suffixes after the day:
+Do not use letter suffixes after the day.
 
 {% include example.html content="30 April (instead of 30th April)" %}
 
-If numbers only are required, such as in a form, use YYYY-MM-DD:
+If numbers only are required, such as in a form, use YYYY-MM-DD.
 
 {% include example.html content="2025-10-21" %}
 
 #### Relative dates and times
 
-- Use a specific date, including the year, where appropriate, so the information still makes sense over time.
-- Avoid relative dates and times, such as tomorrow, last week, or next Thursday, unless the content will be updated promptly.
+Use a specific date, including the year, where appropriate, so the information still makes sense over time.
+
+Avoid relative dates and times, such as tomorrow, last week, or next Thursday, unless the content will be updated promptly.
 
 {% include example.html content="The deadline to complete the course is Friday, 27 November 2026." %}
 
@@ -417,7 +422,7 @@ Use sentence case for labels in user interface elements. Avoid title case. This 
 
 Capitalize only the first word and any proper names.
 
-{% include example.html label="Example"
+{% include example.html label="Examples"
   use="\"Create account\", \"Reset password\"."
   avoid="\"Create Account\", \"Reset Password\"." %}
 
@@ -427,9 +432,9 @@ Capitalize only the first word and any proper names.
 
 Link text should describe the destination.
 
-To write link text for a link that takes the user to a page titled “WAI Resources”:
+To write link text for a link that takes the user to a page titled “Our mission”:
 {% include example.html label="Example"
-  use="“WAI Resources”"
+  use="“Our mission”"
   avoid="“Click here”, “Learn more”, “Read more”" %}
 
 On a given page, do not use the same link text for links that go to different destinations.
@@ -439,8 +444,8 @@ On a given page, do not use the same link text for links that go to different de
 Place links at the end of sentences, if possible. This helps readers understand the complete thought before deciding whether to follow the link.
 
 {% include example.html label="Example"
-  use="For the latest draft, see [Easy Checks — A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/easy-checks/)."
-  avoid="See [Easy Checks — A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/easy-checks/) for the latest draft." %}
+  use="For more information, see [Discover W3C groups](https://www.w3.org/groups/)."
+  avoid="See [Discover W3C groups](https://www.w3.org/groups/) for more information." %}
 
 #### Links to definitions
 
@@ -480,11 +485,8 @@ When linking to non-public content, indicate that access is restricted. Use a la
 - Internal
 - Login required
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+{% include example.html content="Meeting minutes (Password protected)" %}
 
-Meeting minutes (Password protected)
-</div>
 
 #### Punctuation in links
 
@@ -504,17 +506,21 @@ Use the same grammatical structure for each item in a list. For example, if one 
 
 Avoid mixing different structures in the same list.
 
-{% include example.html label="Example"
-  use="Research the audience."
-  avoid="Research the audience." %}
+{% capture use %}
+- Research the audience.
+- Design the content.
+- Conduct usability testing.
+{% endcapture %}
+
+{% capture avoid %}
+- Research the audience.
+- Content design.
+- Testing with users.
+{% endcapture %}
 
 {% include example.html label="Example"
-  use="Design the content."
-  avoid="Content design." %}
-
-{% include example.html label="Example"
-  use="Conduct usability testing."
-  avoid="Testing with users." %}
+  use=use
+  avoid=avoid %}
 
 #### Long list items
 
@@ -526,8 +532,9 @@ When some items in a list consist of several sentences, consider if the list str
 
 End with a **colon**.
 
-Web accessibility means that people can:
 {% capture body %}
+Web accessibility means that people can:
+
 - perceive, understand, navigate, and interact with the web
 - contribute to the web
 {% endcapture %}
@@ -554,7 +561,7 @@ To prepare for a productive day:
 2. review goals
 3. prioritize the most important tasks
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ##### List items are complete sentences
 
@@ -588,7 +595,7 @@ Your application must include the following documents:
 - three letters of recommendation
 - two forms of identification
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ##### List items that are a mix of complete sentences and fragments
 
@@ -600,7 +607,7 @@ If you must mix sentences and fragments, start with a capital letter and end wit
 
 ##### Ages, measurements, percentages, and ratios
 
-Always use a **digit**:
+Always use a **digit**.
 
 {% capture body %}
 - She is 5 years old.
@@ -609,40 +616,39 @@ Always use a **digit**:
 - We drink 2 litres of water a day.
 - I bought 2 kilos of tomatoes.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 #### Digits versus words
 
 ##### Numbers showing quantity or order
 
-Numbers up to nine: use words.
+**Numbers up to nine:** Use words.
 
 {% capture body %}
 - He invited nine friends.
 - She came first.
 - It was the ninth time this happened.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
-Numbers 10 and above: use digits.
+**Numbers 10 and above:** Use digits.
 
 {% capture body %}
 - They bought 10 plants.
 - I was 12th in the queue.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 **Exceptions:**
 
-- See [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
-- Use words for very large, rounded numbers.
+Use words for very large, rounded numbers.
 
 {% capture body %}
-Writing very large numbers:
-
 1 million, 2.2 billion, 3.5 trillion
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
+
+For more exceptions, see [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
 
 ##### Start of a sentence
 
@@ -684,7 +690,7 @@ Use commas as thousands separators in quantities.
 - 9,000 users
 - 9,990,900 downloads
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 Do not use thousand separators in years, addresses, page numbers, or code line identifiers.
 
@@ -692,7 +698,7 @@ Do not use thousand separators in years, addresses, page numbers, or code line i
 - year 2026
 - page 1234
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ### Symbols
 
@@ -707,7 +713,7 @@ Except where there is a lack of space (for example, in a table or chart), use wo
 - Number 3 is correct.
 - Statement 2 is true.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ### Times
 
@@ -725,7 +731,7 @@ For a global audience, always schedule for the time zone “UTC” (Universal Co
 - The meeting is from 09:00 to 10:30.
 - They agreed to meet between 13:00 and 15:00.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ### Titles
 
@@ -753,7 +759,7 @@ These documents typically have the following characteristics:
 - War and Peace
 - The Chicago Manual of Style
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 **Note:** When using title case, keep titles as short as practical to improve readability.
 
@@ -772,7 +778,7 @@ These documents typically have the following characteristics:
 - Accessibility requirements for media players
 - ARIA1: Using the `aria-describedby` property to provide a descriptive label for user interface controls (one technique within the Techniques for WCAG 2.2 collection)
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 See related guidance on [capitalization in headings](#capitalization-in-headings).
 
@@ -802,7 +808,7 @@ Enquire Everything
 information space
 : The abstract concept of everything accessible using networks: the web
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 #### Headings
 
@@ -854,7 +860,7 @@ Use lowercase for common terms.
 - The **Accessibility Guidelines Working Group** is discussing the issue.
 - There are currently 47 open **working groups**.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 Working Groups are where formal W3C standards, called Recommendations, are developed and maintained.
 
@@ -886,20 +892,21 @@ Use parentheses sparingly within a simple sentence in the following scenarios:
 
 Use square brackets in quotations to show you have altered or added something to the original quoted material.
 
-Use to:
+**Scenario 1:** Insert an explanation in a direct quotation
 
-- insert an explanation in a direct quotation
-- indicate something that’s been incorrectly written in a direct quotation
-- add some text within a direct quotation in order to clarify something
-- modify a direct quotation so that it fits grammatically within the surrounding text
+{% include example.html content="The council approved the project after reviewing the trial results [from an earlier study]." %}
 
-{% capture body %}
-- Adding an explanation: “The council approved the project after reviewing the trial results [from an earlier study].”
-- Indicating an error: The letter states, “The committee beleives [sic] the proposal will succeed.”
-- Clarifying something: The report says the system must be updated because “it [the software] is outdated.”
-- Modifying to fit grammar: The policy explains that “[t]he system must be reviewed every year.”
-{% endcapture %}
-{% include example.html label="Example" content=body %}
+**Scenario 2:** Indicate something that’s been incorrectly written in a direct quotation
+
+{% include example.html content="The letter states, “The committee beleives [sic] the proposal will succeed." %}
+
+**Scenario 3:** Add some text within a direct quotation in order to clarify something
+
+{% include example.html content="The report says the system must be updated because “it [the software] is outdated." %}
+
+**Scenario 4:** Modify a direct quotation so that it fits grammatically within the surrounding text
+
+{% include example.html content="The policy explains that “[t]he system must be reviewed every year." %}
 
 #### Colons and semicolons
 
@@ -925,7 +932,7 @@ Use a colon to introduce the main idea(s). It gives the sense of “as follows.�
 - Figure 2: User journey
 - Contact us: Email support@example.com.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ##### Semicolons
 
@@ -937,7 +944,7 @@ Use a semicolon in the following scenarios:
 - The rule is simple; applying it consistently is harder.
 - The first draft focused on accuracy; the second focused on readability.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 **Scenario 2:** Use a semicolon to break up complex lists in a sentence or bulleted item that contains internal commas.
 
@@ -945,7 +952,7 @@ Use a semicolon in the following scenarios:
 
 #### Commas
 
-In a phrase listing three or more items, place a comma before the final conjunction ("Oxford comma").
+In a phrase listing three or more items, place a comma before the final conjunction (this is commonly referred to as an "Oxford comma").
 
 {% include example.html content="I bought apples, oranges, and bananas." %}
 
@@ -953,18 +960,23 @@ In a phrase listing three or more items, place a comma before the final conjunct
 
 ##### Em dash (—) {#em-dash}
 
-Use an em dash to add clarification, explanation, or emphasis after a complete clause.
-
 Put a space before and after an em dash.
 
 The part after the dash does not have to be a complete sentence.
 
-{% capture body %}
-- **Add clarification:** WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction.
-- **Add explanation:** Write in the active voice — that is, the subject performs the action.
-- **Add emphasis:** Our mission is to make the web work — for everyone.
-{% endcapture %}
-{% include example.html label="Example" content=body %}
+Use an em dash to add clarification, explanation, or emphasis after a complete clause.
+
+**Scenario 1:** Add clarification
+
+{% include example.html content="WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction." %}
+
+**Scenario 2:** Add explanation
+
+{% include example.html content="The letter states, “Write in the active voice — that is, the subject performs the action." %}
+
+**Scenario 3:** Add emphasis
+
+{% include example.html content="Our mission is to make the web work — for everyone." %}
 
 **Note:** If combining related ideas with an em dash makes a sentence long or complicated, it is usually better to split it into two sentences.
 
@@ -983,15 +995,16 @@ Common roles include:
 
 ##### En dash (–) {#en-dash}
 
-- Use an en dash to indicate a range in numbers, such as in dates, pages, and sports results.
-- Do not add a space before and after an en dash.
+Use an en dash to indicate a range in numbers, such as in dates, pages, and sports results.
+
+Do not add a space before and after an en dash.
 
 {% capture body %}
 - The years 1990–2000 were transformative.
 - Read pages 10–15.
 - They won 106–76.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 ##### Hyphen (-)
 
@@ -1002,7 +1015,7 @@ Use a hyphen to join compound adjectives.
 - short-term memory
 - well-known technique
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 **Note:** Be aware that a hyphen can change the meaning of a phrase:
 
@@ -1018,7 +1031,7 @@ Do *not* hyphenate:
 - They are two **closely related** concepts.
 - The technique is **well known**.
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Examples" content=body %}
 
 Use a hanging hyphen when two compound adjectives modify the same noun.
 
@@ -1028,13 +1041,13 @@ For guidance on terms we no longer hyphenate and now write as one word, see the 
 
 #### Ellipsis (...)
 
+Add a space before and after an ellipsis.
+
 Use an ellipsis to show:
 
 - missing words
 - a pause
 - something left unsaid
-
-Add a space before and after an ellipsis.
 
 {% include example.html content="I was wondering … but it’s probably not important." %}
 
@@ -1080,23 +1093,25 @@ Avoid using quotes in a way that could be taken to suggest irony or in a non-sta
 
 Generally, use a forward slash only in dates, fractions, and URLs.
 
-Avoid using a forward slash as a substitute for words.
+In the following scenarios, use words like “and” or “or” to show the relationship between two things.
 
-For two things that have a close relationship, use a hyphen or words like “and” or “or” instead.
+Where possible, avoid using a forward slash.
 
-{% include example.html label="Example 1: Close relationship"
-  use="The issue was part of the larger nature**-**nurture debate."
-  avoid="The issue was part of the larger nature/nurture debate." %}
+**Scenario 1:** Equal relationship
 
-{% include example.html label="Example 2: Equal relationship"
+{% include example.html label="Example"
   use="The project examines cause-**and**-effect relationships."
   avoid="The project examines cause/effect relationships." %}
 
-{% include example.html label="Example 3: Either or both"
+**Scenario 2:** Either or both
+
+{% include example.html label="Example"
   use="Add a potato, **or** an onion, **or both**."
   avoid="Add a potato and/or an onion." %}
 
-{% include example.html label="Example 4: Alternative"
+**Scenario 3:** Alternative
+
+{% include example.html label="Example"
   use="If **or** when I have a dog, I’ll need a fenced yard."
   avoid="If/when I have a dog, I’ll need a fenced yard." %}
 
@@ -1104,7 +1119,7 @@ For two things that have a close relationship, use a hyphen or words like “and
 
 {% include example.html label="Example"
   use="In inclusive writing, avoid gender pronouns (she/her, he/his)."
-  avoid="In inclusive writing, avoid gender pronouns (she or her, he or his)." %}
+  avoid="In inclusive writing, avoid gender pronouns (she or her or he or his)." %}
 
 ### That versus which
 
@@ -1126,9 +1141,13 @@ Use a singular verb with collective nouns when referring to the group as a singl
 
 **Exceptions:**
 
-{% include example.html label="Exception 1: Use a plural verb if members act independently." content="The staff have handed in their separate reports." %}
+Use a plural verb if members act independently.
 
-{% include example.html label="Exception 2: The collective noun, “people“, always takes a plural verb." content="The people are waiting." %}
+{% include example.html content="The staff have handed in their separate reports." %}
+
+The collective noun, “people“, always takes a plural verb.
+
+{% include example.html content="The people are waiting." %}
 
 ## W3C word list
 
