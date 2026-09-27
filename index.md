@@ -345,7 +345,7 @@ If space is limited (for example, in a table cell), you may use abbreviations ca
 Include a comma if it would normally follow the full phrase. 
 
 {% include example.html label="Examples"
-  use="e“e.g.,” and “i.e.,”"
+  use="“e.g.,” and “i.e.,”"
   avoid="“e.g.” and “i.e.”" %}
 
 ### Currencies
