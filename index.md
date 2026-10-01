@@ -102,15 +102,23 @@ Provide the full term with the abbreviation on first use. See [Expanding abbrevi
 
 ###### Contractions
 
-Use simple positive contractions such as “it’s”, “you’re”,  “we’ve” and “they’ll”, because they make text feel more conversational and friendly, and help readers absorb information faster.
+Use simple positive contractions in informative (non-normative) writing.
 
-Avoid negative contractions such as “can’t”, “don’t”, and “won’t”.
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
 
-Keeping the word “not” expanded is important because it may distinguish between right and wrong, lawful and unlawful, or safe and unsafe. Negative contractions can cause some readers to overlook the apostrophe and interpret a statement as positive.
+- Use:  it’s, that's, you’re,  we’ve, they’ll, let's
+</div>
+
+Positive contractions make text feel more conversational and friendly, and help readers absorb information faster.
+
+Avoid negative contractions in all writing.
 
 {% include example.html label="Examples"
   use="cannot, do not, will not"
   avoid="can’t, don’t, won’t" %}
+  
+Negative contractions can cause some readers to overlook the apostrophe and interpret a statement as positive.  
 
 ###### Personal pronouns
 
