@@ -2,18 +2,19 @@
 title: W3C Style Guide
 lang: en
 toc: true
+stylesheets: 'assets/css/example.css'
 ---
 
 ## About this style guide
 
-Editors: Tamsin Ewing, W3C; Coralie Mercier, W3C. 
+**Editors:** Tamsin Ewing, W3C; Coralie Mercier, W3C. 
 Initial draft: 28 July 2026
 
 This style guide is written for W3C authors and editors. It promotes readability, consistency, and easier translation across all W3C content, including standards-related materials, educational resources, organizational communications, and website content.
 
 This is a living document. For the list of substantive changes, see the Changelog [Link coming].
 
-The guidance is written for US English. Translators should follow the conventions of their target language.
+The guidance is written for **US English**. Translators should follow the conventions of their target language.
 
 Following this guide helps:
 
@@ -65,21 +66,13 @@ Avoid bolding text in whole paragraphs or sections.
 
 #### Italics
 
-Use italics to indicate foreign words that are not common in English.
+Use italics for words or phrases from other languages that are not commonly used in English. For guidance on identifying changes in language and using appropriate HTML markup, see [Using <code>b</code> and <code>i</code> elements](https://www.w3.org/International/questions/qa-b-and-i-tags). 
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The Japanese aesthetic of <i lang="ja-Latn">wabi-sabi</i> values simplicity and imperfection.
-</div>
+{% include example.html content="The Japanese aesthetic of <i lang=\"ja-Latn\">wabi-sabi</i> values simplicity." %}
 
 Use italics sparingly to emphasize a word or phrase if it helps make the meaning clearer, especially to show differences between ideas.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-This policy applies to *new* staff, not existing staff.
-</div>
+{% include example.html content="This policy applies to *new* staff, not existing staff." %}
 
 Avoid italicizing text in whole paragraphs and sections.
 
@@ -109,19 +102,23 @@ Provide the full term with the abbreviation on first use. See [Expanding abbrevi
 
 ###### Contractions
 
-Use simple positive contractions such as “it’s”, “you’re”,  “we’ve” and “they’ll”, because they make text feel more conversational and friendly, and help readers absorb information faster.
-
-Avoid negative contractions such as “can’t”, “don’t”, and “won’t”.
-
-Keeping the word “not” expanded is important because it may distinguish between right and wrong, lawful and unlawful, or safe and unsafe. Negative contractions can cause some readers to overlook the apostrophe and interpret a statement as positive.
+Use simple positive contractions in informative (non-normative) writing.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Examples:
 
-- Use: cannot, do not, will not
-- Avoid: can’t, don’t, won’t
+- Use:  it’s, that's, you’re,  we’ve, they’ll, let's
 </div>
 
+Positive contractions make text feel more conversational and friendly, and help readers absorb information faster.
+
+Avoid negative contractions in all writing.
+
+{% include example.html label="Examples"
+  use="cannot, do not, will not"
+  avoid="can’t, don’t, won’t" %}
+  
+Negative contractions can cause some readers to overlook the apostrophe and interpret a statement as positive.  
 
 ###### Personal pronouns
 
@@ -137,17 +134,13 @@ Break up information into smaller sections to make it easier to read. See [Using
 
 Do not turn actions into nouns. Use verbs instead.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example 1:
+{% include example.html label="Example 1"
+  use="We analyzed the results."
+  avoid="We conducted an analysis of the results." %}
 
-- Use: We analyzed the results.
-- Avoid: We conducted an analysis of the results.
-
-Example 2:
-
-- Use: They investigated the issue.
-- Avoid: They carried out an investigation into the issue.
-</div>
+{% include example.html label="Example 2"
+  use="They investigated the issue."
+  avoid="They carried out an investigation into the issue." %}
 
 ###### Voice
 
@@ -155,12 +148,9 @@ Write in the active voice; that is, the subject performs the action.
 
 Avoid the passive voice where possible.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: We’ll provide updated information here when it’s available.
-- Avoid: Additional information will be provided here when it's available.
-</div>
+{% include example.html label="Example"
+  use="We’ll provide updated information here when it’s available."
+  avoid="Additional information will be provided here when it's available." %}
 
 ###### Words
 
@@ -169,12 +159,9 @@ Example:
 - Explain specialist terms on first use.
 - Remove unnecessary words.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example of unnecessary words:
-
-- Use: Write link text that describes where the link goes.
-- Avoid: **Try to** write link text **so** that **it** **clearly** describes where the link goes.
-</div>
+{% include example.html label="Example of unnecessary words"
+  use="Write link text that describes where the link goes."
+  avoid="**Try to** write link text **so** that **it** **clearly** describes where the link goes." %}
 
 #### Write for a global audience
 
@@ -191,30 +178,15 @@ W3C content is read and translated around the world.
 
 Only state or request someone’s age when it’s strictly relevant.
 
-- Use: Older people
-- Avoid: Older users, old people, the elderly, seniors
+{% include example.html label="Example"
+  use="Older people"
+  avoid="Older users, old people, the elderly, seniors" %}
 
 ##### Disability language
 
 Use respectful, accurate language when referring to disability.
 
-Examples:
-
-- Use blind, not “visually impaired”.
-- Use deaf, not “hearing-impaired”.
-
-Avoid terms that are dehumanizing or patronizing, or that suggest helplessness or weakness.
-
-Examples:
-
-- the disabled, the blind
-- differently abled
-- handicapped
-- high-functioning, low-functioning
-- special needs
-- wheelchair bound, confined to a wheelchair
-
-For other disability-specific terms, and terminology to avoid, see the [W3C word list](#w3c-word-list).
+For examples of disability-specific terms, and terminology to avoid, see the [W3C word list](#w3c-word-list).
 
 ###### People-first and identity-first language
 
@@ -222,36 +194,30 @@ Use people-first language on first reference, then use a mix of people-first and
 
 People-first language puts the person before the disability.
 
-Examples:
-
+{% capture body %}
 - people with disabilities
 - people who are blind
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 Identity-first language puts the disability before the person.
 
-Examples:
-
+{% capture body %}
 - disabled people
 - blind people
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 
 ##### Gender-inclusive language
 
 Use gender-neutral language, where possible.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+Avoid making assumptions about gender.
 
-Use “chair”, not “chairman”.
-</div>
-
-Avoid assumptions about gender.
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Not all builders are male.
-</div>
+{% include example.html label="Example"
+  use="“chair”"
+  avoid="“chairman”" %}
 
 ###### Pronouns: Gender inclusivity and translation considerations
 
@@ -265,14 +231,9 @@ Use a **plural noun** with “they” or “their”.
 
 Where possible, avoid “he/she” and “his/her”.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Using the noun “developer”:
-
-- Use: **Developers** should test **their** code before release.
-- Avoid: A developer should test **his** or **her** code before release.
-</div>
+{% include example.html label="Example: Using the noun “developer”"
+  use="**Developers** should test **their** code before release."
+  avoid="A developer should test **his** or **her** code before release." %}
 
 **Repeat the noun instead of using singular “they”:**
 
@@ -286,12 +247,9 @@ Repeat the noun.
 
 Where possible, avoid singular “they”.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: If an author can avoid jargon, **the author** should do so.
-- Avoid: If an author can avoid jargon, **they** should do so.
-</div>
+{% include example.html label="Example"
+  use="If an author can avoid jargon, **the author** should do so."
+  avoid="If an author can avoid jargon, **they** should do so." %}
 
 **Exceptions:** 
 
@@ -320,59 +278,54 @@ For correct usage and spelling of key terms, see the [W3C word list](#w3c-word-l
 
 Spell out an abbreviation the first time you use it on a page. Put the short form in parentheses afterwards. After that, you can just use the abbreviation.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
+{% capture body %}
 - First use: World Wide Web Consortium (W3C)
 - Later use: W3C
-</div>
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 There are a few ways you can do this. See [Techniques for expanding abbreviations](https://www.w3.org/WAI/WCAG22/Techniques/general/G102#related).
 
 **Exception:** If a term is widely known by its abbreviation, you do not need to spell it out.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 ARIA, CAPTCHA, GIF, HTML, PDF, WiFi
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 #### Re-expanding abbreviations
 
-- **Independent sections:** In sections that may be read independently of the main text, spell out the abbreviation again, followed by the abbreviation in parentheses.
-- **Change of context:** If an abbreviation could have multiple meanings and the context changes, provide the full meaning to clarify which meaning is intended.
+**Independent sections:** In sections that may be read independently of the main text, spell out the abbreviation again, followed by the abbreviation in parentheses.
+
+**Change of context:** If an abbreviation could have multiple meanings and the context changes, provide the full meaning to clarify which meaning is intended.
 
 #### Capitalization in expanded terms
 
 Use **title case** for proper names.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - Web Content Accessibility Guidelines (WCAG)
 - Framework for Accessible Specification of Technologies (FAST) Task Force
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 Use **lowercase** for common nouns.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-
-Examples:
-
+{% capture body %}
 - real-time communication (RTC)
 - augmentative and alternative communication (AAC)
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 #### Plural acronyms
 
 Form the plural of an acronym by adding a lowercase “s”. Do not use an uppercase “S” or an apostrophe.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - Use: PDFs
 - Avoid: PDFS, PDF’s
-</div>
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 #### Abbreviations to avoid
 
@@ -387,54 +340,49 @@ Examples:
 
 If space is limited (for example, in a table cell), you may use abbreviations carefully.
 
-Include a comma if it would normally follow the full phrase. For example, write “e.g.,” and  “i.e.,” rather than “e.g.” and “i.e.”.
+Include a comma if it would normally follow the full phrase. 
+
+{% include example.html label="Examples"
+  use="“e.g.,” and “i.e.,”"
+  avoid="“e.g.” and “i.e.”" %}
+
+### Currencies
+
+Use ISO 4217 currency codes and place the code after the amount.
+
+{% include example.html content="100 USD" %}
+
+**Note:** This guidance is for English-language text. Currency conventions may differ in other languages.
+
+Read more on the <abbr title="International Organization for Standardization">ISO</abbr> website: [ISO 4217 — Currency codes](https://www.iso.org/iso-4217-currency-codes.html).
 
 ### Dates
 
-Put the day first:
+Put the day first.
 
 Use the international format to reduce ambiguity for a global audience. This is a specific, intentional departure from US practice.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+{% include example.html content="1 January (instead of January 1)" %}
 
-1 January (instead of January 1)
-</div>
+Use numbers for the day and year, words for the month.
 
-Use numbers for the day and year, words for the month:
+{% include example.html content="31 May 2022" %}
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+Do not use letter suffixes after the day.
 
-31 May 2022
-</div>
+{% include example.html content="30 April (instead of 30th April)" %}
 
-Do not use letter suffixes after the day:
+If numbers only are required, such as in a form, use YYYY-MM-DD.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-30 April (instead of 30th April)
-</div>
-
-If numbers only are required, such as in a form, use YYYY-MM-DD:
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-2025-10-21
-</div>
+{% include example.html content="2025-10-21" %}
 
 #### Relative dates and times
 
-- Use a specific date, including the year, where appropriate, so the information still makes sense over time.
-- Avoid relative dates and times, such as tomorrow, last week, or next Thursday, unless the content will be updated promptly.
+Use a specific date, including the year, where appropriate, so the information still makes sense over time.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+Avoid relative dates and times, such as tomorrow, last week, or next Thursday, unless the content will be updated promptly.
 
-The deadline to complete the course is Friday, 27 November 2026.
-</div>
+{% include example.html content="The deadline to complete the course is Friday, 27 November 2026." %}
 
 **Exceptions:** Blog posts and other dated content can use relative dates because readers expect them to reflect when they were published.
 
@@ -472,12 +420,9 @@ Use sentence case for labels in user interface elements. Avoid title case. This 
 
 Capitalize only the first word and any proper names.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: "Create account", "Reset password".
-- Avoid: "Create Account", "Reset Password".
-</div>
+{% include example.html label="Examples"
+  use="\"Create account\", \"Reset password\"."
+  avoid="\"Create Account\", \"Reset Password\"." %}
 
 ### Links
 
@@ -485,14 +430,10 @@ Example:
 
 Link text should describe the destination.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-To write link text for a link that takes the user to a page titled “WAI Resources”:
-
-- Use: “WAI Resources”
-- Avoid: “Click here”, “Learn more”, “Read more”
-</div>
+To write link text for a link that takes the user to a page titled “Our mission”:
+{% include example.html label="Example"
+  use="“Our mission”"
+  avoid="“Click here”, “Learn more”, “Read more”" %}
 
 On a given page, do not use the same link text for links that go to different destinations.
 
@@ -500,12 +441,9 @@ On a given page, do not use the same link text for links that go to different de
 
 Place links at the end of sentences, if possible. This helps readers understand the complete thought before deciding whether to follow the link.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: For the latest draft, see [Easy Checks — A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/easy-checks/).
-- Avoid: See [Easy Checks — A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/easy-checks/) for the latest draft.
-</div>
+{% include example.html label="Example"
+  use="For more information, see [Discover W3C groups](https://www.w3.org/groups/)."
+  avoid="See [Discover W3C groups](https://www.w3.org/groups/) for more information." %}
 
 #### Links to definitions
 
@@ -519,30 +457,21 @@ When linking to an email address, use the email address itself as the link text 
 
 This helps people identify the destination before activating the link and makes it easier to copy or note the address.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+{% include example.html label="Example"
+  use="Email any questions to support@example.org."
+  avoid="Email any questions to the Support team." %}
 
-Use:
-
-- Email any questions to support@example.org.
-- Contact Jane at jane.smith@example.org.
-
-Avoid:
-
-- Email any questions to the Support team.
-- Contact Jane Smith.
-</div>
+{% include example.html label="Example"
+  use="Contact Jane at jane.smith@example.org."
+  avoid="Contact Jane Smith." %}
 
 #### Links to non-HTML documents
 
 Include the **file format** so the user knows what to expect.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: To download the full report, see Annual Report 2025 (PDF).
-- Avoid: To download the full report, see Annual Report 2025.
-</div>
+{% include example.html label="Example"
+  use="To download the full report, see Annual Report 2025 (PDF)."
+  avoid="To download the full report, see Annual Report 2025." %}
 
 #### Links to non-public documents
 
@@ -554,22 +483,16 @@ When linking to non-public content, indicate that access is restricted. Use a la
 - Internal
 - Login required
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+{% include example.html content="Meeting minutes (Password protected)" %}
 
-Meeting minutes (Password protected)
-</div>
 
 #### Punctuation in links
 
 Add a full stop after the linked text if it ends a sentence. Do not include the full stop as part of the link.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: See [How to join W3C](https://www.w3.org/membership/join/).
-- Avoid: See [How to join W3C.](https://www.w3.org/membership/join/)
-</div>
+{% include example.html label="Example"
+  use="See [How to join W3C](https://www.w3.org/membership/join/)."
+  avoid="See [How to join W3C.](https://www.w3.org/membership/join/)" %}
 
 **Exception:** Never add a full stop after a raw URL.
 
@@ -577,23 +500,25 @@ Example:
 
 #### Parallel structure
 
-Keep the same grammatical form for each list item: all noun phrases, all verb phrases, or all full sentences.
+Use the same grammatical structure for each item in a list. For example, if one item starts with a noun, start all the items with a noun.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
+Avoid mixing different structures in the same list.
 
-Use:
+{% capture use %}
+- Research the audience.
+- Design the content.
+- Conduct usability testing.
+{% endcapture %}
 
-- Gather data to understand the audience
-- Structure and write the content.
-- Test and refine the content.
+{% capture avoid %}
+- Research the audience.
+- Content design.
+- Testing with users.
+{% endcapture %}
 
-Avoid:
-
-- Gathering data to understand the audience.
-- Content structure and writing
-- Test and refine the content
-</div>
+{% include example.html label="Example"
+  use=use
+  avoid=avoid %}
 
 #### Long list items
 
@@ -605,14 +530,13 @@ When some items in a list consist of several sentences, consider if the list str
 
 End with a **colon**.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
+{% capture body %}
 Web accessibility means that people can:
 
 - perceive, understand, navigate, and interact with the web
 - contribute to the web
-</div>
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 ##### List items complete the introductory phrase or sentence in the body text
 
@@ -622,9 +546,7 @@ Start with a **lowercase** letter, even if the list is a numbered list.
 
 End each item with **no punctuation**.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 To give your day structure, use the 1-3-5 Rule and focus on:
 
 - one big task
@@ -636,7 +558,8 @@ To prepare for a productive day:
 1. wake up early
 2. review goals
 3. prioritize the most important tasks
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ##### List items are complete sentences
 
@@ -644,13 +567,12 @@ To prepare for a productive day:
 
 End with a **full stop** or a **question mark**.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - In spring I mulch the roses.
 - In summer I grow vegetables.
 - In autumn I sow and repair the lawn.
-</div>
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 ##### List items are fragments or not complete sentences
 
@@ -658,23 +580,20 @@ Begin each item with a **lowercase** letter (unless the first word is normally c
 
 End each item with **no punctuation**.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example 1:
-
+{% capture body %}
 Shopping list:
 
 - bread
 - milk
 - eggs
 
-Example 2:
-
 Your application must include the following documents:
 
 - a full résumé
 - three letters of recommendation
 - two forms of identification
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ##### List items that are a mix of complete sentences and fragments
 
@@ -686,115 +605,98 @@ If you must mix sentences and fragments, start with a capital letter and end wit
 
 ##### Ages, measurements, percentages, and ratios
 
-Always use a **digit**:
+Always use a **digit**.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - She is 5 years old.
-- They run 5 kilometres every day.
+- They run 3 miles every day.
 - He is 6 feet tall.
-- We drink 2 litres of water a day.
-- I bought 2 kilos of tomatoes.
-</div>
+- We drink 2 liters of water a day.
+- I bought 4 pounds of tomatoes.
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 #### Digits versus words
 
 ##### Numbers showing quantity or order
 
-Numbers up to nine: use words.
+**Numbers up to nine:** Use words.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - He invited nine friends.
 - She came first.
 - It was the ninth time this happened.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
-Numbers 10 and above: use digits.
+**Numbers 10 and above:** Use digits.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - They bought 10 plants.
 - I was 12th in the queue.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 **Exceptions:**
 
-- See [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
-- Use words for very large, rounded numbers.
+Use words for very large, rounded numbers.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples of writing very large numbers:
-
+{% capture body %}
 1 million, 2.2 billion, 3.5 trillion
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
+
+For more exceptions, see [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
 
 ##### Start of a sentence
 
 When starting a sentence with a digit, use words or reword.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
-- Use:
-  - Ten of the 25 participants had issues completing the task.
-  - Of the 25 participants, 10 had issues completing the task.
-- Avoid: 10 of the 25 participants had issues completing the task.
-</div>
+{% capture use %}
+- Ten of the 25 participants had issues completing the task.
+- Of the 25 participants, 10 had issues completing the task.
+{% endcapture %}
+{% include example.html label="Example"
+  use=use
+  avoid="10 of the 25 participants had issues completing the task." %}
 
 ##### Related numbers
 
 With *related* numbers, where one number is usually written in digits and the other not, use **digits** for both.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-We bought 1 bag containing 500 seeds.
-</div>
+{% include example.html content="We bought 1 bag containing 500 seeds." %}
 
 ##### Adjacent numbers
 
 With *adjacent* numbers that express different categories of numbers, use a **mixture of words and digits**.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The cook needs twelve 2-pound bags of flour.
-</div>
+{% include example.html content="The cook needs twelve 2-pound bags of flour." %}
 
 ##### Phone numbers
 
 Include the country calling code and, where applicable, the area code.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: +1 212 555 1234
-- Avoid: (212) 555-1234
-</div>
+{% include example.html label="Example"
+  use="+1 212 555 1234"
+  avoid="(212) 555-1234" %}
 
 #### Punctuation in numbers
 
 Use commas as thousands separators in quantities.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - 9,000 users
 - 9,990,900 downloads
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 Do not use thousand separators in years, addresses, page numbers, or code line identifiers.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - year 2026
 - page 1234
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ### Symbols
 
@@ -805,12 +707,11 @@ Except where there is a lack of space (for example, in a table or chart), use wo
 - **Number sign (octothorpe):**
   - #: Use “**number**” or a suitable noun instead.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - Number 3 is correct.
 - Statement 2 is true.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ### Times
 
@@ -820,20 +721,15 @@ For an audience in a particular location, use the local time zone.
 
 For a global audience, always schedule for the time zone “UTC” (Universal Coordinated Time).
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-10:00 UTC
-</div>
+{% include example.html content="10:00 UTC" %}
 
 **In a sentence**, do not use the en dash. Use words instead, such as “from … to” or “between … and” instead.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - The meeting is from 09:00 to 10:30.
 - They agreed to meet between 13:00 and 15:00.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ### Titles
 
@@ -855,14 +751,13 @@ These documents typically have the following characteristics:
 - formally published and version-controlled
 - authoritative, citable documents
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - Web Content Accessibility Guidelines (WCAG)
 - W3C Process Document
 - War and Peace
 - The Chicago Manual of Style
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 **Note:** When using title case, keep titles as short as practical to improve readability.
 
@@ -875,14 +770,13 @@ These documents typically have the following characteristics:
 - form part of a larger work, such as a chapter, module, or technique
 - describe the information people can find in the document
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - Contact us
 - Register for TPAC 2026
 - Accessibility requirements for media players
 - ARIA1: Using the `aria-describedby` property to provide a descriptive label for user interface controls (one technique within the Techniques for WCAG 2.2 collection)
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 See related guidance on [capitalization in headings](#capitalization-in-headings).
 
@@ -902,9 +796,7 @@ Avoid using all capital letters for words (except acronyms).
 
 Use lowercase for glossary terms (except for proper names).
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
+{% capture body %}
 browser
 : A web client that allows a human to read information on the web
 
@@ -913,7 +805,8 @@ Enquire Everything
 
 information space
 : The abstract concept of everything accessible using networks: the web
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 #### Headings
 
@@ -955,9 +848,7 @@ When you pluralize an official name, it usually becomes a common term.
 
 Use lowercase for common terms.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - The organization joined as a **W3C Member** to work with us.
 - Organizations of all sizes and all types are **W3C members**.
 - We have published a new **W3C Recommendation**.
@@ -966,7 +857,9 @@ Examples:
 - WCAG 2.2 contains 86 **success criteria.**
 - The **Accessibility Guidelines Working Group** is discussing the issue.
 - There are currently 47 open **working groups**.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
+
 Working Groups are where formal W3C standards, called Recommendations, are developed and maintained.
 
 ### Punctuation
@@ -983,47 +876,35 @@ Use parentheses sparingly within a simple sentence in the following scenarios:
 
 **Scenario 1:** Provide the abbreviation for a term
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Internet of Things (IoT)
-</div>
+{% include example.html content="Internet of Things (IoT)" %}
 
 **Scenario 2:** Clarify something in a short aside
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Captions (called “subtitles” in some areas) provide content to people who are deaf and hard-of-hearing.
-</div>
+{% include example.html content="Captions (called “subtitles” in some areas) provide content to people who are deaf and hard-of-hearing." %}
 
 **Scenario 3:** Signal an optional plural
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Test(s)
-</div>
+{% include example.html content="Test(s)" %}
 
 ##### Square brackets
 
 Use square brackets in quotations to show you have altered or added something to the original quoted material.
 
-Use to:
+**Scenario 1:** Insert an explanation in a direct quotation
 
-- insert an explanation in a direct quotation
-- indicate something that’s been incorrectly written in a direct quotation
-- add some text within a direct quotation in order to clarify something
-- modify a direct quotation so that it fits grammatically within the surrounding text
+{% include example.html content="The council approved the project after reviewing the trial results [from an earlier study]." %}
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
+**Scenario 2:** Indicate something that’s been incorrectly written in a direct quotation
 
-- Adding an explanation: “The council approved the project after reviewing the trial results [from an earlier study].”
-- Indicating an error: The letter states, “The committee beleives [sic] the proposal will succeed.”
-- Clarifying something: The report says the system must be updated because “it [the software] is outdated.”
-- Modifying to fit grammar: The policy explains that “[t]he system must be reviewed every year.”
-</div>
+{% include example.html content="The letter states, “The committee beleives [sic] the proposal will succeed." %}
+
+**Scenario 3:** Add some text within a direct quotation in order to clarify something
+
+{% include example.html content="The report says the system must be updated because “it [the software] is outdated." %}
+
+**Scenario 4:** Modify a direct quotation so that it fits grammatically within the surrounding text
+
+{% include example.html content="The policy explains that “[t]he system must be reviewed every year." %}
 
 #### Colons and semicolons
 
@@ -1036,25 +917,20 @@ Use a colon to introduce the main idea(s). It gives the sense of “as follows.�
 - A complete sentence must precede a colon.
 - Use **lowercase** for the word following a colon.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-They had one goal: to finish the marathon.
-</div>
+{% include example.html content="They had one goal: to finish the marathon." %}
 
 **In titles or labels:**
 
 - A colon may separate a category label from a title or description.
 - Use **uppercase** for the word following a colon.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - Group Note: Use of Large Language Models in standards work
 - Chapter 3: Accessible forms
 - Figure 2: User journey
 - Contact us: Email support@example.com.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ##### Semicolons
 
@@ -1062,48 +938,43 @@ Use a semicolon in the following scenarios:
 
 **Scenario 1:**  Use a semicolon to combine two related ideas in a simple sentence. The text before and the text after the semicolon should both be grammatically complete sentences.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - The rule is simple; applying it consistently is harder.
 - The first draft focused on accuracy; the second focused on readability.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 **Scenario 2:** Use a semicolon to break up complex lists in a sentence or bulleted item that contains internal commas.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The conference has attendees from Seattle, Washington; New Delhi, India; and Nairobi, Kenya.
-</div>
+{% include example.html content="The conference has attendees from Seattle, Washington; New Delhi, India; and Nairobi, Kenya." %}
 
 #### Commas
 
-In a phrase listing three or more items, place a comma before the final conjunction ("Oxford comma").
+In a phrase listing three or more items, place a comma before the final conjunction (this is commonly referred to as an "Oxford comma").
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-I bought apples, oranges, and bananas.
-</div>
+{% include example.html content="I bought apples, oranges, and bananas." %}
 
 #### Dashes and hyphens
 
 ##### Em dash (—) {#em-dash}
 
-Use an em dash to add clarification, explanation, or emphasis after a complete clause.
-
 Put a space before and after an em dash.
 
 The part after the dash does not have to be a complete sentence.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
+Use an em dash to add clarification, explanation, or emphasis after a complete clause.
 
-- **Add clarification:** WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction.
-- **Add explanation:** Write in the active voice — that is, the subject performs the action.
-- **Add emphasis:** Our mission is to make the web work — for everyone.
-</div>
+**Scenario 1:** Add clarification
+
+{% include example.html content="WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction." %}
+
+**Scenario 2:** Add explanation
+
+{% include example.html content="The letter states, “Write in the active voice — that is, the subject performs the action." %}
+
+**Scenario 3:** Add emphasis
+
+{% include example.html content="Our mission is to make the web work — for everyone." %}
 
 **Note:** If combining related ideas with an em dash makes a sentence long or complicated, it is usually better to split it into two sentences.
 
@@ -1111,40 +982,38 @@ Examples:
 
 Use an em dash in a list item to separate a short term or phrase from its explanation or a clarification.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
+{% capture body %}
 Common roles include:
 
 - **author** — writes the content
 - **editor** — reviews the content before publication
 - **translator** — translates the content into another language
-</div>
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 ##### En dash (–) {#en-dash}
 
-- Use an en dash to indicate a range in numbers, such as in dates, pages, and sports results.
-- Do not add a space before and after an en dash.
+Use an en dash to indicate a range in numbers, such as in dates, pages, and sports results.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
+Do not add a space before and after an en dash.
 
+{% capture body %}
 - The years 1990–2000 were transformative.
 - Read pages 10–15.
 - They won 106–76.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ##### Hyphen (-)
 
 Use a hyphen to join compound adjectives.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - peer-to-peer connection
 - short-term memory
 - well-known technique
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 **Note:** Be aware that a hyphen can change the meaning of a phrase:
 
@@ -1156,24 +1025,21 @@ Do *not* hyphenate:
 - an adverb that ends in “ly”
 - an adverb that follows a noun
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - They are two **closely related** concepts.
 - The technique is **well known**.
-</div>
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 Use a hanging hyphen when two compound adjectives modify the same noun.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The pre**-** and post**-**deployment stages are equally important.
-</div>
+{% include example.html content="The pre**-** and post**-**deployment stages are equally important." %}
 
 For guidance on terms we no longer hyphenate and now write as one word, see the [W3C word list](#w3c-word-list).
 
 #### Ellipsis (...)
+
+Add a space before and after an ellipsis.
 
 Use an ellipsis to show:
 
@@ -1181,13 +1047,7 @@ Use an ellipsis to show:
 - a pause
 - something left unsaid
 
-Add a space before and after an ellipsis.
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-I was wondering … but it’s probably not important.
-</div>
+{% include example.html content="I was wondering … but it’s probably not important." %}
 
 #### Headings
 
@@ -1211,11 +1071,7 @@ See [punctuation in numbers](#punctuation-in-numbers).
 
 Use double quotation marks to reference a term.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-This accessibility requirement is sometimes called “sufficient color contrast”; however, the technical term is “luminosity contrast.”
-</div>
+{% include example.html content="This accessibility requirement is sometimes called “sufficient color contrast”; however, the technical term is “luminosity contrast.”" %}
 
 ##### Single quotation marks
 
@@ -1223,11 +1079,7 @@ Use single quotation marks for a quotation inside a quotation.
 
 **Note:** With nested quotes, the full stop remains inside both the single and double quotation marks.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Maria said, "The reviewer described the proposal as 'well structured and easy to follow.'"
-</div>
+{% include example.html content="Maria said, ”The reviewer described the proposal as 'well structured and easy to follow.'”" %}
 
 ##### Scare quotes
 
@@ -1239,88 +1091,61 @@ Avoid using quotes in a way that could be taken to suggest irony or in a non-sta
 
 Generally, use a forward slash only in dates, fractions, and URLs.
 
-Avoid using a forward slash as a substitute for words.
+In the following scenarios, use words like “and” or “or” to show the relationship between two things.
 
-For two things that have a close relationship, use a hyphen or words like “and” or “or” instead.
+Where possible, avoid using a forward slash.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+**Scenario 1:** Equal relationship
 
-Example 1: Close relationship
+{% include example.html label="Example"
+  use="The project examines cause-**and**-effect relationships."
+  avoid="The project examines cause/effect relationships." %}
 
-- Use: The issue was part of the larger nature**-**nurture debate.
-- Avoid: The issue was part of the larger nature/nurture debate.
+**Scenario 2:** Either or both
 
-Example 2: Equal relationship
+{% include example.html label="Example"
+  use="Add a potato, **or** an onion, **or both**."
+  avoid="Add a potato and/or an onion." %}
 
-- Use: The project examines cause-**and**-effect relationships.
-- Avoid: The project examines cause/effect relationships.
+**Scenario 3:** Alternative
 
-Example 3: Either or both
-
-- Use: Add a potato, **or** an onion, **or both**.
-- Avoid: Add a potato and/or an onion.
-</div>
-
-Example 4: Alternative
-
-- Use: If **or** when I have a dog, I’ll need a fenced yard.
-- Avoid: If/when I have a dog, I’ll need a fenced yard.
+{% include example.html label="Example"
+  use="If **or** when I have a dog, I’ll need a fenced yard."
+  avoid="If/when I have a dog, I’ll need a fenced yard." %}
 
 **Exception:** You may use a forward slash to show an alternative if it's clearer than using words.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-- Use: In inclusive writing, avoid gender pronouns (she/her, he/his).
-- Avoid: In inclusive writing, avoid gender pronouns (she or her, he or his).
-</div>
+{% include example.html label="Example"
+  use="In inclusive writing, avoid gender pronouns (she/her, he/his)."
+  avoid="In inclusive writing, avoid gender pronouns (she or her or he or his)." %}
 
 ### That versus which
 
 **That:** Introduces essential information needed to understand the sentence.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The time is essential to identify specific meetings: “The meeting that starts at 10:00 is online. The other meetings are in-person.”
-</div>
+{% include example.html content="The time is essential to identify specific meetings: “The meeting that starts at 10:00 is online. The other meetings are in-person.”" %}
 
 **Which:** Introduces extra information that is not essential.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The time is not essential: “The meeting, which starts at 10:00, is online.”
-</div>
+{% include example.html content="The time is not essential: “The meeting, which starts at 10:00, is online.”" %}
 
 ### Verb agreement with collective nouns
 
 Use a singular verb with collective nouns when referring to the group as a single entity.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
-- Use: The working group has published a draft.
-- Avoid: The working group have published a draft.
-</div>
+{% include example.html label="Example"
+  use="The working group has published a draft."
+  avoid="The working group have published a draft." %}
 
 **Exceptions:**
 
-Exception 1: Use a plural verb if members act independently.
+Use a plural verb if members act independently.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
+{% include example.html content="The staff have handed in their separate reports." %}
 
-The staff have handed in their separate reports.
-</div>
+The collective noun, “people“, always takes a plural verb.
 
-Exception 2: The collective noun, "people", always takes a plural verb.
-
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-The people are waiting.
-</div>
+{% include example.html content="The people are waiting." %}
 
 ## W3C word list
 
@@ -1402,7 +1227,7 @@ full stop (.)
 : Use **full stop** as the formal name.
 
 grandfather
-: Avoid. Use **legacy**. See [Gender-inclusive language](#gender-inclusive-language).
+: Avoid when referring to existing code, systems, or practices that continue under earlier requirements. Use "**legacy**", "**exempt**", or another precise alternative. The metaphorical use originates from discriminatory US voting laws. See [Race-inclusive language](#race-inclusive-language).
 
 hand-eye coordination
 : Use **"hand-eye coordination"**, not "eye-hand coordination".
@@ -1420,7 +1245,7 @@ heading
 : Use **heading** for headings marked up with `<h1>` through `<h6>`.
 
 hearing-impaired, hearing impairment
-: Avoid. Use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
+: Avoid when referring to people. Use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
 
 homepage, home page
 : One word preferred, both allowed.
@@ -1591,7 +1416,7 @@ user interface
 : Lowercase, unless part of a proper name.
 
 visually impaired
-: Avoid. Use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
+: Avoid when referring to people. Use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
 
 voice recognition
 : Use for technology that identifies who is speaking by analyzing vocal characteristics, such as voice biometrics used for authentication.
