@@ -66,7 +66,7 @@ Avoid bolding text in whole paragraphs or sections.
 
 #### Italics
 
-Use italics to indicate foreign words that are not common in English.
+Use italics for words or phrases from other languages that are not commonly used in English. For guidance on identifying changes in language and using appropriate HTML markup, see [Using <code>b</code> and <code>i</code> elements](https://www.w3.org/International/questions/qa-b-and-i-tags). 
 
 {% include example.html content="The Japanese aesthetic of <i lang=\"ja-Latn\">wabi-sabi</i> values simplicity." %}
 
