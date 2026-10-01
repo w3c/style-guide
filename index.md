@@ -66,11 +66,11 @@ Avoid bolding text in whole paragraphs or sections.
 
 #### Italics
 
-Use italics for words or phrases from other languages that are not commonly used in English. For guidance on identifying changes in language and using appropriate HTML markup, see [Using <code>b</code> and <code>i</code> elements](https://www.w3.org/International/questions/qa-b-and-i-tags). 
+Use italics for <b>words or phrases from other languages</b> that are not commonly used in English. For guidance on identifying changes in language and using appropriate HTML markup, see [Using <code>b</code> and <code>i</code> elements](https://www.w3.org/International/questions/qa-b-and-i-tags). 
 
 {% include example.html content="The Japanese aesthetic of <i lang=\"ja-Latn\">wabi-sabi</i> values simplicity." %}
 
-Use italics sparingly to emphasize a word or phrase if it helps make the meaning clearer, especially to show differences between ideas.
+Use italics sparingly to <b>emphasize</b> a word or phrase if it helps make the meaning clearer, especially to show differences between ideas. For guidance on using appropriate HTML markup, see [HTML5: 4.6.2 The em element](https://www.w3.org/TR/2011/WD-html5-author-20110809/the-em-element.html).
 
 {% include example.html content="This policy applies to *new* staff, not existing staff." %}
 
