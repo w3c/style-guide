@@ -223,29 +223,37 @@ Avoid making assumptions about gender.
 
 Use pronouns that are **inclusive** and **easy to translate** for W3C's global audience.
 
-**Use a plural noun to avoid he/she and his/her**:
+**Use a plural noun instead of “he/she” or “his/her”:**
 
-Avoid assuming gender by skipping "he/she" and "his/her", where possible. Use a **plural noun** instead.
+“He/she” and “his/her” unnecessarily limit gender to binary choices.
+
+Use a **plural noun** with “they” or “their”.
+
+Where possible, avoid “he/she” and “his/her”.
 
 {% include example.html label="Example: Using the noun “developer”"
   use="**Developers** should test **their** code before release."
-  avoid="A developer should test **his** code before release." %}
+  avoid="A developer should test **his** or **her** code before release." %}
 
-**Use a noun instead of singular “they”:**
+**Repeat the noun instead of using singular “they”:**
 
-Singular, “they” can be:
+Singular “they” can be:
 
 - hard to translate in some languages
 - hard to understand for some people
 - considered grammatically incorrect by some people
 
-To avoid using singular “they”, use a **noun** instead.
+Repeat the noun.
+
+Where possible, avoid singular “they”.
 
 {% include example.html label="Example"
   use="If an author can avoid jargon, **the author** should do so."
   avoid="If an author can avoid jargon, **they** should do so." %}
 
-**Exceptions:** Use:
+**Exceptions:** 
+
+Use:
 
 - personal pronouns that real people use for themselves
 - pronouns assigned to named personas
