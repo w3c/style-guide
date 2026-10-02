@@ -1008,7 +1008,6 @@ Use a hyphen to join compound adjectives.
 
 {% capture body %}
 - peer-to-peer connection
-- short-term memory
 - well-known technique
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
