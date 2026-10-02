@@ -860,8 +860,6 @@ Use lowercase for common terms.
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
 
-Working Groups are where formal W3C standards, called Recommendations, are developed and maintained.
-
 ### Punctuation
 
 Punctuation helps to separate ideas, signal relationships between ideas or emphasize ideas.
