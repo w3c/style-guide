@@ -1399,8 +1399,8 @@ superset
 timestamp
 : Write as one word.
 
-timezone
-: Write as one word.
+time zone
+: Write as two words.
 
 touchscreen
 : Write as one word.
