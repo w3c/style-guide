@@ -1,0 +1,47 @@
+{%- comment -%}
+Renders an example block: content set visually apart from the surrounding prose
+by a blue rule, under an "EXAMPLE" label.
+
+Parameters (all optional; pass `content`, or `use`/`avoid`, or both):
+
+  label    Label shown above the block. Defaults to "Example". Write it in
+           sentence case, the stylesheet displays it in uppercase.
+  content  Markdown rendered as the body of the example.
+  use      Recommended wording, marked with a green check mark.
+  avoid    Wording to avoid, marked with a red cross.
+
+Usage:
+
+  {% include example.html
+     content="The Japanese aesthetic of *wabi-sabi* values simplicity." %}
+
+  {% include example.html label="Examples"
+     use="cannot, do not, will not"
+     avoid="can’t, don’t, won’t" %}
+
+  {% capture body %}
+- Web Content Accessibility Guidelines (WCAG)
+- Accessible Rich Internet Applications (ARIA)
+  {% endcapture %}
+  {% include example.html label="Examples" content=body %}
+{%- endcomment -%}
+
+{%- comment -%} Inline markdown, with the wrapping paragraph kramdown adds removed. {%- endcomment -%}
+{%- assign use_html = include.use | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip -%}
+{%- assign avoid_html = include.avoid | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip -%}
+
+<aside class="example"><div>{{ include.label | default: 'Example' }}</div>
+{%- if include.content %}
+{{ include.content | markdownify | strip }}
+{%- endif -%}
+{%- if include.use or include.avoid %}
+<ul class="example__choices">
+{%- if include.use %}
+<li class="example__use"><span class="example__icon" aria-hidden="true">&#10003;</span> <span class="example__text"><b>Use:</b> {{ use_html }}</span></li>
+{%- endif %}
+{%- if include.avoid %}
+<li class="example__avoid"><span class="example__icon" aria-hidden="true">&#10007;</span> <span class="example__text"><b>Avoid:</b> {{ avoid_html }}</span></li>
+{%- endif %}
+</ul>
+{%- endif %}
+</aside>
