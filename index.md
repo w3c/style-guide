@@ -1088,9 +1088,9 @@ Avoid using quotes in a way that could be taken to suggest irony or in a non-sta
 
 Generally, use a forward slash only in dates, fractions, and URLs.
 
-In the following scenarios, use words like “and” or “or” to show the relationship between two things.
+Avoid using a forward slash as a substitute for words whenever possible.
 
-Where possible, avoid using a forward slash.
+For two things that have a close relationship, use words like “and” or “or” instead.
 
 **Scenario 1:** Equal relationship
 
