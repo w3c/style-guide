@@ -1088,23 +1088,37 @@ Avoid using quotes in a way that could be taken to suggest irony or in a non-sta
 
 Generally, use a forward slash only in dates, fractions, and URLs.
 
+In other cases, use words that make the intended relationship between terms clear.
+
 Avoid using a forward slash as a substitute for words whenever possible.
 
-For two things that have a close relationship, use words like “and” or “or” instead.
+**Scenario 1:** Both apply
 
-**Scenario 1:** Equal relationship
+When both things apply, use "and".
 
 {% include example.html label="Example"
-  use="The project examines cause-**and**-effect relationships."
-  avoid="The project examines cause/effect relationships." %}
+  use="The study examines the effects of nature **and** nurture on child development."
+  avoid="The study examines the effects of nature/nurture on child development." %}
 
-**Scenario 2:** Either or both
+**Scenario 2:** Comparison or opposition
+
+When two things are being compared or presented in opposition, use “versus”.
+
+{% include example.html label="Example"
+  use="The debate considers nature **versus** nurture as explanations for human behavior."
+  avoid="The debate considers nature/nurture as explanations for human behavior." %}
+
+**Scenario 3:** Either or both
+
+When either or both alternatives are possible, use “or” and make it clear that both are also possible.
 
 {% include example.html label="Example"
   use="Add a potato, **or** an onion, **or both**."
   avoid="Add a potato and/or an onion." %}
 
-**Scenario 3:** Alternative
+**Scenario 4:** Alternative
+
+When the slash represents alternatives, generally use “or” or other words that make the intended meaning clear.
 
 {% include example.html label="Example"
   use="If **or** when I have a dog, I’ll need a fenced yard."
