@@ -678,7 +678,7 @@ Include the country calling code and, where applicable, the area code.
 
 #### Punctuation in numbers
 
-Use commas as thousands separators in quantities.
+Use commas as thousands separators in numbers that express a quantity.
 
 {% capture body %}
 - 9,000 users
@@ -686,7 +686,7 @@ Use commas as thousands separators in quantities.
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
 
-Do not use thousand separators in years, addresses, page numbers, or code line identifiers.
+Do not use thousand separators in numbers that identify or label something, such as a year, address, page number, code line number, or issue number.
 
 {% capture body %}
 - year 2026
