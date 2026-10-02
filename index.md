@@ -260,11 +260,11 @@ Use:
 
 ##### Race-inclusive language
 
-Terms to avoid:
+Terms to avoid and possible alternatives:
 
-- Master — instead, use “main”
-- Whitelist — instead, use “allowlist”
-- Blacklist — instead, use “denylist”
+- master — use a more precise alternative such as “main”, “primary”, “original”, “source”, or “authoritative”
+- whitelist — use “allowlist”
+- blacklist — use “denylist”
 
 ### W3C key terms
 
@@ -1290,7 +1290,7 @@ markup
 : Write as one word. Do not hyphenate.
 
 master
-: Avoid. Use **main**. See [Race-inclusive language](#race-inclusive-language).
+: Use "master" when referring to expertise or mastering a skill. Where possible, avoid "master" when another word more precisely describes the intended meaning. For example, avoid "master branch", "master switch" (use **main** instead); "master copy", "master spreadsheet" (use **original**, **source**, or **authoritative**, depending on the meaning); "master bedroom" (use **primary** instead); "the dog's master" (use **owner** instead). For related guidance, see [Race-inclusive language](#race-inclusive-language).
 
 metadata
 : Write as one word. Do not hyphenate.
