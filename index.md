@@ -866,7 +866,9 @@ Each punctuation type has a different purpose.
 
 #### Brackets
 
-##### Parentheses (round brackets)
+##### Parentheses
+
+Known as "round brackets" in some areas.
 
 Use parentheses sparingly within a simple sentence in the following scenarios:
 
