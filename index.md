@@ -284,7 +284,7 @@ Spell out an abbreviation the first time you use it on a page. Put the short for
 {% endcapture %}
 {% include example.html label="Example" content=body %}
 
-There are a few ways you can do this. See [Techniques for expanding abbreviations](https://www.w3.org/WAI/WCAG22/Techniques/general/G102#related).
+There are a few ways you can do this. See [techniques for expanding abbreviations](https://www.w3.org/WAI/WCAG22/Techniques/general/G102#related).
 
 **Exception:** If a term is widely known by its abbreviation, you do not need to spell it out.
 
