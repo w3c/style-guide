@@ -722,22 +722,13 @@ Use the 24-hour clock.
 
 **Recurring events:** Give the time in UTC *unless* the event needs to remain at a fixed local time where daylight saving time applies. In that case, use the local time and explicitly identify the time zone. The equivalent UTC time changes when daylight saving time starts or ends.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-Every Tuesday at 10:00 Casablanca time (Africa/Casablanca).
-</div>
-
+{% include example.html content="Every Tuesday at 10:00 Casablanca time (Africa/Casablanca)." %}
 
 #### Local audience
 
 For an audience in a particular location, use the local time zone.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Example:
-
-15:00 CEST
-</div>
+{% include example.html content="15:00 CEST" %}
 
 #### Time ranges
 
