@@ -826,7 +826,6 @@ information space
 
 W3C Recommendation
 : A technical specification that has been endorsed by W3C and its members — similar to what other standards organizations would call a "standard"
-</div>
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
 
