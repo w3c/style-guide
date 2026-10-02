@@ -821,11 +821,12 @@ Use lowercase for glossary terms (except for proper names).
 browser
 : A web client that allows a human to read information on the web
 
-Enquire Everything
-: A 1980 program named after the Victorian book Enquire Within upon
-
 information space
 : The abstract concept of everything accessible using networks: the web
+
+W3C Recommendation
+: A technical specification that has been endorsed by W3C and its members — similar to what other standards organizations would call a "standard"
+</div>
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
 
