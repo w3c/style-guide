@@ -717,13 +717,34 @@ Except where there is a lack of space (for example, in a table or chart), use wo
 
 Use the 24-hour clock.
 
-For an audience in a particular location, use the local time zone.
+#### Global audience
 
-For a global audience, always schedule for the time zone “UTC” (Universal Coordinated Time).
+**One-time events:** Give the time in UTC (Coordinated Universal Time).
 
 {% include example.html content="10:00 UTC" %}
 
-**In a sentence**, do not use the en dash. Use words instead, such as “from … to” or “between … and” instead.
+**Recurring events:** Give the time in UTC *unless* the event needs to remain at a fixed local time where daylight saving time applies. In that case, use the local time and explicitly identify the time zone. The equivalent UTC time changes when daylight saving time starts or ends.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Every Tuesday at 10:00 Casablanca time (Africa/Casablanca).
+</div>
+
+
+#### Local audience
+
+For an audience in a particular location, use the local time zone.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+15:00 CEST
+</div>
+
+#### Time ranges
+
+For time ranges **in a sentence**, do not use an en dash. Use words instead, such as “from … to” or “between … and”.
 
 {% capture body %}
 - The meeting is from 09:00 to 10:30.
