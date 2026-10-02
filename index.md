@@ -447,19 +447,23 @@ When linking to a definition or glossary entry, link only the first occurrence o
 
 Avoid linking every occurrence of the same term within a paragraph or section. Repeated links create visual clutter and make content harder to scan.
 
-#### Links for email addresses
+#### Links to email addresses
 
-When linking to an email address, use the email address itself as the link text rather than the person's name.
+##### Individual email addresses
+
+Use the person's name as the link text rather than the email address.
+
+This helps protect the email address from spam.
+
+{% include example.html content="For more information, email [Jane Smith](mailto:jane.smith@example.org)" %}
+
+##### Shared email addresses
+
+Use the email address as the link text rather than the name of the group or team.
 
 This helps people identify the destination before activating the link and makes it easier to copy or note the address.
 
-{% include example.html label="Example"
-  use="Email any questions to support@example.org."
-  avoid="Email any questions to the Support team." %}
-
-{% include example.html label="Example"
-  use="Contact Jane at jane.smith@example.org."
-  avoid="Contact Jane Smith." %}
+{% include example.html content="For more information, email [support@example.org](mailto:support@example.org)" %}
 
 #### Links to non-HTML documents
 
