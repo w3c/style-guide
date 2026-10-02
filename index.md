@@ -358,15 +358,11 @@ Read more on the <abbr title="International Organization for Standardization">IS
 
 ### Dates
 
-Put the day first.
+Use the international format to reduce ambiguity for a global audience.
 
-Use the international format to reduce ambiguity for a global audience. This is a specific, intentional departure from US practice.
+Put the day first using digits, followed by the month written out as a word. **Note:** This is a specific, intentional departure from US practice.
 
-{% include example.html content="1 January (instead of January 1)" %}
-
-Use numbers for the day and year, words for the month.
-
-{% include example.html content="31 May 2022" %}
+{% include example.html content="1 August 2026 (instead of 8/1/2026)" %}
 
 Do not use letter suffixes after the day.
 
