@@ -451,7 +451,7 @@ Avoid linking every occurrence of the same term within a paragraph or section. R
 
 ##### Individual email addresses
 
-Use the person's name as the link text rather than the email address.
+Use the person's **name** as the link text rather than the email address.
 
 This helps protect the email address from spam.
 
@@ -459,7 +459,7 @@ This helps protect the email address from spam.
 
 ##### Shared email addresses
 
-Use the email address as the link text rather than the name of the group or team.
+Use the **email address** as the link text rather than the name of the group or team.
 
 This helps people identify the destination before activating the link and makes it easier to copy or note the address.
 
