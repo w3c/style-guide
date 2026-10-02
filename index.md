@@ -326,9 +326,7 @@ Form the plural of an acronym by adding a lowercase “s”. Do not use an upper
 
 #### Abbreviations to avoid
 
-- etc.:
-  - In general contexts, use “**such as**” to introduce one or more examples.
-  - Where the text might be used within a legal context, use “**including, but not limited to,**” to introduce a non-exhaustive list of examples.
+- etc.: Where the text might be used within a legal context, use “**including, but not limited to,**” to introduce a non-exhaustive list of examples.
 - e.g.: Use “**for example**”.
 - i.e.: Use “**that is**” or “**in other words**”.
 - vs.: Use “**versus**”, “**compared with**”, or “**in contrast to**”.
