@@ -104,11 +104,8 @@ Provide the full term with the abbreviation on first use. See [Expanding abbrevi
 
 Use simple positive contractions in informative (non-normative) writing.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
-- Use:  it’s, that's, you’re,  we’ve, they’ll, let's
-</div>
+{% include example.html label="Examples"
+  use="it’s, that's, you’re,  we’ve, they’ll, let's" %}
 
 Positive contractions make text feel more conversational and friendly, and help readers absorb information faster.
 
