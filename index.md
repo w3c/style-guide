@@ -680,10 +680,9 @@ Include the country calling code and, where applicable, the area code.
 Use commas as thousands separators in numbers that express a quantity.
 
 {% capture body %}
-- 9,000 users
-- 9,990,900 downloads
+More than 1,000 users participated in the study.
 {% endcapture %}
-{% include example.html label="Examples" content=body %}
+{% include example.html label="Example" content=body %}
 
 Do not use thousand separators in numbers that identify or label something, such as a year, address, page number, code line number, or issue number.
 
@@ -692,6 +691,13 @@ Do not use thousand separators in numbers that identify or label something, such
 - page 1234
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
+
+Use a period as the decimal separator.
+
+{% capture body %}
+The account balance is 1,000,500.50 USD.
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 ### Symbols
 
