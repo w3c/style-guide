@@ -167,7 +167,7 @@ W3C content is read and translated around the world.
 - Use examples that reflect a variety of cultures and regions.
 - Avoid culture-specific references.
 - Choose internationally understood terms, such as “postal code” instead of “ZIP code”, and “given name” instead of “first name” (and [do not assume everyone has a first and last name, or that a family name comes last](https://www.w3.org/International/questions/qa-personal-names.en.html)).
-- Use internationally recognized formats for dates, times, numbers, currency, percentages and measurements to avoid ambiguity.
+- Use internationally recognized formats for [dates](#dates), [times](#global-audience), [currencies](#currencies), [measurements](#measurements), [large numbers](#billion), and [phone numbers](#phone-numbers) to avoid ambiguity.
 
 #### Write inclusively
 
@@ -655,7 +655,9 @@ Use words for very large, rounded numbers.
 
 For more exceptions, see [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
 
-**Note:** When using billion and larger-number terms, their meaning can vary between languages and numbering conventions. For example, depending on the numbering convention, one billion can mean one thousand million or one million million.
+<p id="billion"><b>Numbers billion and above</b>
+
+When using billion and larger-number terms, their meaning can vary between languages and numbering conventions. For example, depending on the numbering convention, one billion can mean one thousand million or one million million.
 
 Always clarify billion and larger-number terms in words.
 
