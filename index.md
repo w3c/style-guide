@@ -263,6 +263,12 @@ Terms to avoid and possible alternatives:
 - whitelist — use “allowlist”
 - blacklist — use “denylist”
 
+### Spelling
+
+Use US English.
+
+To check spelling, use the [Merriam-Webster dictionary](https://www.merriam-webster.com/).
+
 ### W3C key terms
 
 For correct usage and spelling of key terms, see the [W3C word list](#w3c-word-list).
