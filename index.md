@@ -814,7 +814,7 @@ These documents typically have the following characteristics:
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
 
-See related guidance on [capitalization in headings](#capitalization-in-headings).
+See related guidance on [Capitalization in headings](#capitalization-in-headings).
 
 ## Grammar
 
@@ -1098,19 +1098,19 @@ Use an ellipsis to show:
 
 #### Headings
 
-See [punctuation in headings](#punctuation-in-headings).
+See [Punctuation in headings](#punctuation-in-headings).
 
 #### Links
 
-See [punctuation in links](#punctuation-in-links).
+See [Punctuation in links](#punctuation-in-links).
 
 #### Lists
 
-See [punctuation in lists](#capitalization-and-punctuation-in-lists).
+See [Punctuation in lists](#capitalization-and-punctuation-in-lists).
 
 #### Numbers
 
-See [punctuation in numbers](#punctuation-in-numbers).
+See [Punctuation in numbers](#punctuation-in-numbers).
 
 #### Quotation marks
 
@@ -1130,7 +1130,7 @@ Use single quotation marks for a quotation inside a quotation.
 
 ##### Scare quotes
 
-Avoid using quotes in a way that could be taken to suggest irony or in a non-standard way. For more information, see [scare quotes](https://en.wikipedia.org/wiki/Scare_quotes).
+Avoid using quotes in a way that could be taken to suggest irony or in a non-standard way. For more information, see [Scare quotes](https://en.wikipedia.org/wiki/Scare_quotes).
 
 #### Slashes
 
