@@ -876,6 +876,18 @@ When you remove part of an official name, it's no longer an official name and be
 | ARIA Working Group | working group |
 | W3C Workshop | workshop |
 
+##### Shortening official names
+
+After using the full official name on first reference, you can omit part of the name and retain capitalization if the shortened name remains unambiguous.
+
+If the shortened name could refer to more than one type of entity, use the full official name.
+
+{% capture body %}
+- “W3C Advisory Committee” can be shortened to “Advisory Committee” because W3C has only one advisory committee.
+- “W3C Member” should not be shortened to “Member” because W3C has members of different bodies, including the W3C Board of Directors, the Technical Architecture Group, and various committees.
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
+
 ##### Plural forms
 
 When you pluralize an official name, it usually becomes a common term. 
