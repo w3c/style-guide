@@ -604,13 +604,12 @@ If you must mix sentences and fragments, start with a capital letter and end wit
 
 When writing for a global audience, provide both metric and imperial units.
 
-<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
-Examples:
-
+{% capture body %}
 - The hotel is 6.2 miles (10 km) from the airport.
 - The package weighs 22 lb (10 kg).
-- The temperature is 68°F (20°C).
-</div>
+- The temperature is 68°F (20°C)
+{% endcapture %}
+{% include example.html label="Examples" content=body %}
 
 ### Numbers
 
@@ -661,7 +660,7 @@ Use words for very large, rounded numbers.
 
 For more exceptions, see [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
 
-<p id="billion"><b>Numbers billion and above</b>
+**Numbers billion and above**
 
 When using billion and larger-number terms, their meaning can vary between languages and numbering conventions. For example, depending on the numbering convention, one billion can mean one thousand million or one million million.
 
