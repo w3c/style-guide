@@ -3,6 +3,14 @@ title: W3C Style Guide
 lang: en
 toc: true
 stylesheets: 'assets/css/example.css'
+note:
+  id: beta-note
+  title: Style Guide beta version
+  content: >-
+    This style guide is in beta and is being reviewed and refined. For more
+    information, see the [W3C Style Guide ReadMe](https://github.com/w3c/style-guide).
+    To suggest improvements or report issues, please
+    [create an issue on GitHub](https://github.com/w3c/style-guide/issues).
 ---
 
 ## About this style guide
