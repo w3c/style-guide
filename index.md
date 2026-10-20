@@ -1218,7 +1218,7 @@ This alphabetical list of words describes the correct usage and spelling of term
 accessible
 : Use **"accessible"** only when referring to accessibility for people with disabilities, or to places that disabled people can easily reach or enter. Do not use it to mean "convenient", "available", or "easy to use". For example, avoid: “The gardens are accessible to the public.” Instead, use: “The gardens are open to the public.”
 
-abort
+abort <span class="tag">Avoid</span>
 : Avoid. Use **"cancel"**.
 
 anti-alias
