@@ -668,6 +668,7 @@ Use words for very large, rounded numbers.
 
 For more exceptions, see [Ages, measurements, percentages, and ratios](#ages-measurements-percentages-and-ratios).
 
+<a id="billion"></a>
 **Numbers billion and above**
 
 When using billion and larger-number terms, their meaning can vary between languages and numbering conventions. For example, depending on the numbering convention, one billion can mean one thousand million or one million million.
