@@ -1214,13 +1214,13 @@ The collective noun, “people“, always takes a plural verb.
 
 ## W3C word list
 
-This alphabetical list of words describes the correct usage and spelling of terms used in W3C work that are commonly misspelled or misused.
+This alphabetical list provides guidance on how to write terms commonly used in W3C work, as well as on words and phrases to avoid or use only in specific contexts.
 
 accessible
 : Use **"accessible"** only when referring to accessibility for people with disabilities, or to places that disabled people can easily reach or enter. Do not use it to mean "convenient", "available", or "easy to use". For example, avoid: “The gardens are accessible to the public.” Instead, use: “The gardens are open to the public.”
 
-abort
-: Avoid. Use **"cancel"**.
+abort <span class="tag">Avoid</span>
+: Use **"cancel"**.
 
 anti-alias
 : Hyphenate.
@@ -1229,7 +1229,7 @@ ASCII
 : Use all caps.
 
 autistic
-: Always use “autistic people”, not “people with autism”.
+: Use “autistic people”, not “people with autism”.
 
 back end, back-end
 : Use **"back end"** as a noun: “Data is processed by the back end.” Use **back-end** as an adjective: “We rely on a back-end server.” See [Hyphen](#hyphen--).
@@ -1238,10 +1238,10 @@ base64
 : Lowercase and write as one word.
 
 Bézier
-: Always capitalize and include the accent on the first "e".
+: Capitalize and include the accent on the first "e".
 
-blacklist
-: Avoid. Use **"denylist"**. See [Race-inclusive language](#race-inclusive-language).
+blacklist <span class="tag">Avoid</span>
+: Use **"denylist"**. See [Race-inclusive language](#race-inclusive-language).
 
 braille
 : Lowercase, unless referring to Louis Braille.
@@ -1256,7 +1256,7 @@ click (versus select)
 : Use **"click"** when instructing a user to activate an interactive element, such as a button or link. For example, avoid “Select the Submit button.” Instead use: “Click the Submit button.”
 
 color blind
-: Avoid when referring to people. Use “people who cannot distinguish between certain colors (often called ‘color blindness’).” When referring to the medical condition, use **"color vision deficiency"**. See [Disability language](#disability-language).
+: When referring to people, use “people who cannot distinguish between certain colors (often called ‘color blindness’).” When referring to the medical condition, use **"color vision deficiency"**. See [Disability language](#disability-language).
 
 color space
 : Write as two words.
@@ -1285,8 +1285,8 @@ et al.
 filename
 : Write as one word.
 
-for instance
-: Avoid. Use **"for example"**. See [Words](#words) in plain language.
+for instance <span class="tag">Avoid</span>
+: Use **"for example"**. See [Words](#words) in plain language.
 
 front end, front-end
 : Use **front end** as a noun. Use **front-end** as an adjective. See [Hyphen](#hyphen--).
@@ -1294,8 +1294,8 @@ front end, front-end
 full stop (.)
 : Use **full stop** as the formal name.
 
-grandfather
-: Avoid when referring to existing code, systems, or practices that continue under earlier requirements. Use "**legacy**", "**exempt**", or another precise alternative. The metaphorical use originates from discriminatory US voting laws. See [Race-inclusive language](#race-inclusive-language).
+grandfather <span class="tag">Avoid</span>
+: When referring to existing code, systems, or practices that continue under earlier requirements, use "**legacy**", "**exempt**", or another precise alternative. The metaphorical use originates from discriminatory US voting laws. See [Race-inclusive language](#race-inclusive-language).
 
 hand-eye coordination
 : Use **"hand-eye coordination"**, not "eye-hand coordination".
@@ -1313,7 +1313,7 @@ heading
 : Use **heading** for headings marked up with `<h1>` through `<h6>`.
 
 hearing-impaired, hearing impairment
-: Avoid when referring to people. Use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
+: When referring to people, use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
 
 homepage, home page
 : One word preferred, both allowed.
@@ -1349,7 +1349,7 @@ log in, login
 : Use **"log in"** as a verb. Use **"login"** as a noun or adjective.
 
 loss
-: Avoid as a general description that includes congenital conditions. You can use it when describing a change, such as “As we age, we may experience hearing loss.” See [Disability language](#disability-language).
+: When referring to disabilities, avoid as a general description that includes congenital conditions. You can use it when describing a change, such as “As we age, we may experience hearing loss.” See [Disability language](#disability-language).
 
 lowercase
 : Write as one word.
@@ -1402,8 +1402,8 @@ pathname
 PDF
 : Use all caps. It does not need to be expanded on first use. See similar exceptions in [Expanding abbreviations](#expanding-abbreviations).
 
-persons
-: Avoid. Use **"people"**.
+persons <span class="tag">Avoid</span>
+: Use **"people"**.
 
 please
 : Usually omit in informational content and instructions when it's an unnecessary word. See [Words](#words).
@@ -1418,13 +1418,13 @@ real-time communication
 : Lowercase, including when used with the acronym: **real-time communication (RTC)**. Capitalize only when part of a proper name.
 
 refer to
-: Avoid where **"see"** is clearer. See [Words](#words).
+: Use **"see"** where possible. See [Words](#words).
 
 ruby
 : Lowercase for the typographic convention. Capitalize for the Ruby programming language.
 
-sanity
-: Avoid in phrases such as "sanity check". Use a more precise term, such as **"coherence"**, **"confidence check"**, or **"validation"**. See [Disability language](#disability-language).
+sanity <span class="tag">Avoid</span>
+: In phrases such as "sanity check", use a more precise term, such as **"coherence"**, **"confidence check"**, or **"validation"**. See [Disability language](#disability-language).
 
 schema
 : Lowercase, unless part of a proper name.
@@ -1438,8 +1438,8 @@ select (versus click)
 semicolon
 : Write as one word.
 
-slave
-: Avoid. Use a context-specific alternative, such as **"replica"**. See [Race-inclusive language](#race-inclusive-language).
+slave <span class="tag">Avoid</span>
+: Use a context-specific alternative, such as **"replica"**. See [Race-inclusive language](#race-inclusive-language).
 
 speech recognition
 : Use for technology that converts spoken words into text for speech-to-text transcription, virtual assistants, and other speech user interfaces.
@@ -1484,7 +1484,7 @@ user interface
 : Lowercase, unless part of a proper name.
 
 visually impaired
-: Avoid when referring to people. Use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
+: When referring to people, use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
 
 voice recognition
 : Use for technology that identifies who is speaking by analyzing vocal characteristics, such as voice biometrics used for authentication.
@@ -1510,8 +1510,8 @@ website
 white space
 : Write as two words when used as a noun.
 
-whitelist
-: Avoid. Use **"allowlist"**. See [Race-inclusive language](#race-inclusive-language).
+whitelist <span class="tag">Avoid</span>
+: Use **"allowlist"**. See [Race-inclusive language](#race-inclusive-language).
 
 World Wide Web
 : Write as three words. Do not hyphenate.
