@@ -1192,15 +1192,15 @@ For two things that have a close relationship, use words like “and” or “or
 
 ### Verb agreement with collective nouns
 
-Use a singular verb with collective nouns when referring to the group as a single entity.
+Use a singular verb with collective nouns when referring to a group as a single entity.
 
 {% include example.html label="Example 1"
-  use="The working group has published a draft."
-  avoid="The working group have published a draft." %}
+  use="Web Content Accessibility Guidelines (WCAG) is a W3C standard."
+  avoid="Web Content Accessibility Guidelines (WCAG) are a W3C standard." %}
   
 {% include example.html label="Example 2"
-  use="Web Content Accessibility Guidelines (WCAG) is published by W3C."
-  avoid="Web Content Accessibility Guidelines (WCAG) are published by W3C." %}
+  use="The working group has published a draft."
+  avoid="The working group have published a draft." %}
 
 **Exceptions:**
 
