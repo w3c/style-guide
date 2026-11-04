@@ -934,17 +934,17 @@ Each punctuation type has a different purpose.
 
 Known as "round brackets" in some areas.
 
-Use parentheses sparingly within a simple sentence in the following scenarios:
+Use parentheses sparingly within a simple sentence in the following situations:
 
-**Scenario 1:** Provide the abbreviation for a term
+###### Provide the abbreviation for a term
 
 {% include example.html content="Internet of Things (IoT)" %}
 
-**Scenario 2:** Clarify something in a short aside
+###### Clarify something in a short aside
 
 {% include example.html content="Captions (called “subtitles” in some areas) provide content to people who are deaf and hard-of-hearing." %}
 
-**Scenario 3:** Signal an optional plural
+###### Signal an optional plural
 
 {% include example.html content="Test(s)" %}
 
@@ -952,19 +952,19 @@ Use parentheses sparingly within a simple sentence in the following scenarios:
 
 Use square brackets in quotations to show you have altered or added something to the original quoted material.
 
-**Scenario 1:** Insert an explanation in a direct quotation
+###### Insert an explanation in a direct quotation
 
 {% include example.html content="The council approved the project after reviewing the trial results [from an earlier study]." %}
 
-**Scenario 2:** Indicate something that’s been incorrectly written in a direct quotation
+###### Indicate something that’s been incorrectly written in a direct quotation
 
 {% include example.html content="The letter states, “The committee beleives [sic] the proposal will succeed." %}
 
-**Scenario 3:** Add some text within a direct quotation in order to clarify something
+###### Add some text within a direct quotation in order to clarify something
 
 {% include example.html content="The report says the system must be updated because “it [the software] is outdated." %}
 
-**Scenario 4:** Modify a direct quotation so that it fits grammatically within the surrounding text
+###### Modify a direct quotation so that it fits grammatically within the surrounding text
 
 {% include example.html content="The policy explains that “[t]he system must be reviewed every year." %}
 
@@ -996,9 +996,11 @@ Use a colon to introduce the main idea(s). It gives the sense of “as follows.�
 
 ##### Semicolons
 
-Use a semicolon in the following scenarios:
+Use a semicolon in the following situations:
 
-**Scenario 1:**  Use a semicolon to combine two related ideas in a simple sentence. The text before and the text after the semicolon should both be grammatically complete sentences.
+###### Combine two related ideas
+
+Use a semicolon to combine two related ideas in a simple sentence. The text before and the text after the semicolon should both be grammatically complete sentences.
 
 {% capture body %}
 - The rule is simple; applying it consistently is harder.
@@ -1006,7 +1008,9 @@ Use a semicolon in the following scenarios:
 {% endcapture %}
 {% include example.html label="Examples" content=body %}
 
-**Scenario 2:** Use a semicolon to break up complex lists in a sentence or bulleted item that contains internal commas.
+###### Break up complex lists
+
+Use a semicolon to break up complex lists in a sentence or bulleted item that contains internal commas.
 
 {% include example.html content="The conference has attendees from Seattle, Washington; New Delhi, India; and Nairobi, Kenya." %}
 
@@ -1026,19 +1030,19 @@ The part after the dash does not have to be a complete sentence.
 
 Use an em dash to add clarification, explanation, or emphasis after a complete clause.
 
-**Scenario 1:** Add clarification
-
-{% include example.html content="WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction." %}
-
-**Scenario 2:** Add explanation
-
-{% include example.html content="The letter states, “Write in the active voice — that is, the subject performs the action." %}
-
-**Scenario 3:** Add emphasis
+###### Add emphasis
 
 {% include example.html content="Our mission is to make the web work — for everyone." %}
 
 **Note:** If combining related ideas with an em dash makes a sentence long or complicated, it is usually better to split it into two sentences.
+
+###### Add explanation
+
+{% include example.html content="The letter states, “Write in the active voice — that is, the subject performs the action." %}
+
+###### Add clarification
+
+{% include example.html content="WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction." %}
 
 ###### Em dashes in list items
 
@@ -1156,19 +1160,19 @@ Avoid using a forward slash as a substitute for words whenever possible.
 
 For two things that have a close relationship, use words like “and” or “or” instead.
 
-**Scenario 1:** Equal relationship
+###### Equal relationship
 
 {% include example.html label="Example"
-  use="The project examines cause-**and**-effect relationships."
-  avoid="The project examines cause/effect relationships." %}
+  use="The project examines input and output variables."
+  avoid="The project examines input/output variables." %}
 
-**Scenario 2:** Either or both
+###### Either or both
 
 {% include example.html label="Example"
   use="Add a potato, **or** an onion, **or both**."
   avoid="Add a potato and/or an onion." %}
 
-**Scenario 3:** Alternative
+###### Alternative
 
 {% include example.html label="Example"
   use="If **or** when I have a dog, I’ll need a fenced yard."
