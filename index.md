@@ -1256,7 +1256,7 @@ click (versus select)
 : Use **"click"** when instructing a user to activate an interactive element, such as a button or link. For example, avoid “Select the Submit button.” Instead use: “Click the Submit button.”
 
 color blind
-: When referring to people, use “people who cannot distinguish between certain colors (often called ‘color blindness’).” When referring to the medical condition, use **"color vision deficiency"**. See [Disability language](#disability-language).
+: When referring to people, use “people who cannot distinguish between certain colors (often called ‘color blindness’).” When referring to the medical condition, use **"color vision deficiency"**.
 
 color space
 : Write as two words.
@@ -1313,7 +1313,7 @@ heading
 : Use **heading** for headings marked up with `<h1>` through `<h6>`.
 
 hearing-impaired, hearing impairment
-: When referring to people, use **"deaf"** with a lowercase "d", unless a person or community prefers another term. See [Disability language](#disability-language).
+: When referring to people, use **"deaf"** with a lowercase "d", unless a person or community prefers another term.
 
 homepage, home page
 : One word preferred, both allowed.
@@ -1349,7 +1349,7 @@ log in, login
 : Use **"log in"** as a verb. Use **"login"** as a noun or adjective.
 
 loss
-: When referring to disabilities, avoid as a general description that includes congenital conditions. You can use it when describing a change, such as “As we age, we may experience hearing loss.” See [Disability language](#disability-language).
+: When referring to disabilities, avoid as a general description that includes congenital conditions. You can use it when describing a change, such as “As we age, we may experience hearing loss.”
 
 lowercase
 : Write as one word.
@@ -1424,7 +1424,7 @@ ruby
 : Lowercase for the typographic convention. Capitalize for the Ruby programming language.
 
 sanity <span class="tag">Avoid</span>
-: In phrases such as "sanity check", use a more precise term, such as **"coherence"**, **"confidence check"**, or **"validation"**. See [Disability language](#disability-language).
+: In phrases such as "sanity check", use a more precise term, such as **"coherence"**, **"confidence check"**, or **"validation"**.
 
 schema
 : Lowercase, unless part of a proper name.
@@ -1484,7 +1484,7 @@ user interface
 : Lowercase, unless part of a proper name.
 
 visually impaired
-: When referring to people, use **"blind"** or a more specific term that reflects the person or group being described. See [Disability language](#disability-language).
+: When referring to people, use **"blind"** or a more specific term that reflects the person or group being described.
 
 voice recognition
 : Use for technology that identifies who is speaking by analyzing vocal characteristics, such as voice biometrics used for authentication.
