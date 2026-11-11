@@ -1194,13 +1194,9 @@ For two things that have a close relationship, use words like “and” or “or
 
 Use a singular verb with collective nouns when referring to the group as a single entity.
 
-{% include example.html label="Example 1"
+{% include example.html label="Example"
   use="The working group has published a draft."
   avoid="The working group have published a draft." %}
-  
-{% include example.html label="Example 2"
-  use="Web Content Accessibility Guidelines (WCAG) is published by W3C."
-  avoid="Web Content Accessibility Guidelines (WCAG) are published by W3C." %}
 
 **Exceptions:**
 
