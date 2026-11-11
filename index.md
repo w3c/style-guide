@@ -535,46 +535,52 @@ When some items in a list consist of several sentences, consider if the list str
 
 #### Capitalization and punctuation in lists
 
-##### Text that introduces a list
+Use a colon at the end of text that introduces a list.
 
-End with a **colon**.
+Apply capitalization and punctuation consistently, depending on whether the list items are fragments or complete sentences.
+
+##### List items are fragments (not complete sentences)
+
+Start each item with a **lowercase** letter, unless the first word is normally capitalized, such as a proper noun.
+
+Do **not** add punctuation at the end of each item.
+
+These rules apply to bulleted and numbered lists, whether the items stand alone or complete an introductory phrase or sentence.
 
 {% capture body %}
-Web accessibility means that people can:
+<b>Shopping list</b>
 
-- perceive, understand, navigate, and interact with the web
-- contribute to the web
+- bread
+- milk
+- eggs
 {% endcapture %}
-{% include example.html label="Example" content=body %}
+{% include example.html label="Example: List under a heading" content=body %}
 
-##### List items complete the introductory phrase or sentence in the body text
-
-Treat all the items in the list as a grammatical part of the introductory phrase or sentence.
-
-Start with a **lowercase** letter, even if the list is a numbered list.
-
-End each item with **no punctuation**.
+If the list items complete an introductory phrase or sentence, treat each item as part of that phrase or sentence.
 
 {% capture body %}
-To give your day structure, use the 1-3-5 Rule and focus on:
+Your application must include the following documents:
 
-- one big task
-- three medium tasks
-- five small tasks
+- a full résumé
+- three letters of recommendation
+- two forms of identification
+{% endcapture %}
+{% include example.html label="Example: Unordered list that completes an introductory sentence" content=body %}
 
+{% capture body %}
 To prepare for a productive day:
 
 1. wake up early
 2. review goals
 3. prioritize the most important tasks
 {% endcapture %}
-{% include example.html label="Examples" content=body %}
+{% include example.html label="Example: Numbered list that completes an introductory sentence" content=body %}
 
 ##### List items are complete sentences
 
-**Capitalize** the first letter.
+Start each item with a **capital letter**.
 
-End with a **full stop** or a **question mark**.
+End each item with a **full stop** or **question mark**, as appropriate.
 
 {% capture body %}
 - In spring I mulch the roses.
@@ -583,30 +589,11 @@ End with a **full stop** or a **question mark**.
 {% endcapture %}
 {% include example.html label="Example" content=body %}
 
-##### List items are fragments or not complete sentences
+##### List items are a mix of complete sentences and fragments
 
-Begin each item with a **lowercase** letter (unless the first word is normally capitalized, such as a proper noun).
+Where possible, rewrite list items so they have a consistent grammatical structure.
 
-End each item with **no punctuation**.
-
-{% capture body %}
-Shopping list:
-
-- bread
-- milk
-- eggs
-
-Your application must include the following documents:
-
-- a full résumé
-- three letters of recommendation
-- two forms of identification
-{% endcapture %}
-{% include example.html label="Examples" content=body %}
-
-##### List items that are a mix of complete sentences and fragments
-
-If you must mix sentences and fragments, start with a capital letter and end with a full stop or question mark for all items.
+If you must mix sentences and fragments, start all items with a **capital letter** and end each with a **full stop** or **question mark**, as appropriate.
 
 ### Measurements
 
