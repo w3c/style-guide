@@ -539,7 +539,7 @@ Use a colon at the end of text that introduces a list.
 
 Apply capitalization and punctuation consistently, depending on whether the list items are fragments or complete sentences.
 
-##### List items are fragments (not complete sentences)
+##### List items are not complete sentences
 
 Start each item with a **lowercase** letter, unless the first word is normally capitalized, such as a proper noun.
 
