@@ -578,7 +578,7 @@ To prepare for a productive day:
 
 ##### List items are complete sentences
 
-Start each item with a **capital letter**.
+Start each item with a capital letter.
 
 End each item with a **full stop** or **question mark**, as appropriate.
 
