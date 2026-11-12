@@ -541,7 +541,7 @@ Apply capitalization and punctuation consistently, depending on whether the list
 
 ##### List items are not complete sentences
 
-Start each item with a **lowercase** letter, unless the first word is normally capitalized, such as a proper noun.
+Start each item with a lowercase letter, unless the first word is normally capitalized, such as a proper noun.
 
 Do **not** add punctuation at the end of each item.
 
