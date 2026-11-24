@@ -580,7 +580,7 @@ To prepare for a productive day:
 
 Start each item with a capital letter.
 
-End each item with a **full stop** or **question mark**, as appropriate.
+End each item with a full stop or question mark, as appropriate.
 
 {% capture body %}
 - In spring I mulch the roses.
