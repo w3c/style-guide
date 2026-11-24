@@ -593,7 +593,7 @@ End each item with a full stop or question mark, as appropriate.
 
 Where possible, rewrite list items so they have a consistent grammatical structure.
 
-If you must mix sentences and fragments, start all items with a **capital letter** and end each with a **full stop** or **question mark**, as appropriate.
+If you must mix sentences and fragments, start all items with a capital letter and end each with a full stop or question mark, as appropriate.
 
 ### Measurements
 
