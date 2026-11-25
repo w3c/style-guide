@@ -537,26 +537,28 @@ When some items in a list consist of several sentences, consider if the list str
 
 Use a colon at the end of text that introduces a list.
 
-Apply capitalization and punctuation consistently, depending on whether the list items are fragments or complete sentences.
+Apply capitalization and punctuation consistently, depending on whether the list items are complete or incomplete sentences.
+
+##### List items are complete sentences
+
+Start each item with a capital letter.
+
+End each item with a full stop, question mark, or exclamation mark (although the latter is unlikely to appear in a W3C context), as appropriate.
+
+{% capture body %}
+- In spring I mulch the roses.
+- In summer I grow vegetables.
+- In autumn I sow and repair the lawn.
+{% endcapture %}
+{% include example.html label="Example" content=body %}
 
 ##### List items are not complete sentences
 
-Start each item with a lowercase letter, unless the first word is normally capitalized, such as a proper noun.
+If the list items complete an introductory phrase or sentence, treat each item as part of that phrase or sentence. 
+
+Start each item with a lowercase letter unless the first word is normally capitalized, such as a proper noun.
 
 Do **not** add punctuation at the end of each item.
-
-These rules apply to bulleted and numbered lists, whether the items stand alone or complete an introductory phrase or sentence.
-
-{% capture body %}
-<b>Shopping list</b>
-
-- bread
-- milk
-- eggs
-{% endcapture %}
-{% include example.html label="Example: List under a heading" content=body %}
-
-If the list items complete an introductory phrase or sentence, treat each item as part of that phrase or sentence.
 
 {% capture body %}
 Your application must include the following documents:
@@ -576,24 +578,11 @@ To prepare for a productive day:
 {% endcapture %}
 {% include example.html label="Example: Numbered list that completes an introductory sentence" content=body %}
 
-##### List items are complete sentences
-
-Start each item with a capital letter.
-
-End each item with a full stop or question mark, as appropriate.
-
-{% capture body %}
-- In spring I mulch the roses.
-- In summer I grow vegetables.
-- In autumn I sow and repair the lawn.
-{% endcapture %}
-{% include example.html label="Example" content=body %}
-
-##### List items are a mix of complete sentences and fragments
+##### List items are a mix of complete and incomplete sentences
 
 Where possible, rewrite list items so they have a consistent grammatical structure.
 
-If you must mix sentences and fragments, start all items with a capital letter and end each with a full stop or question mark, as appropriate.
+If you must mix items made up of complete and incomplete sentences, start all items with a capital letter and end each with a full stop, question mark, or exclamation mark, as appropriate.
 
 ### Measurements
 
